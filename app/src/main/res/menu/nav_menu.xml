@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/list"
+        android:title="List Pasien"
+        android:icon="@drawable/list"></item>
+
+    <item android:id="@+id/jadwal"
+        android:title="Jadwal Praktik"
+        android:icon="@drawable/schedule"></item>
+
+    <item android:id="@+id/logbook"
+        android:title="Log Book"
+        android:icon="@drawable/logbook"></item>
+
+    <item android:id="@+id/keluar"
+        android:title="Keluar"
+        android:icon="@drawable/keluar"></item>
+
+</menu>

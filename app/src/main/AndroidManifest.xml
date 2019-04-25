@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Ez-Medic"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:parentActivityName=".Profile" />
+        <activity
+            android:name=".JadwalPraktik"
+            android:label="Jadwal Praktik" />
+        <activity
+            android:name=".DetailPasien"
+            android:label="Detail Pasien"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UpdateProfile"
+            android:label="Update Profile"
+            android:parentActivityName=".Profile" />
+        <activity
+            android:name=".TemplateResep"
+            android:label="Template Resep"
+            android:parentActivityName=".Profile" />
+        <activity
+            android:name=".TemplateLab"
+            android:label="Template Lab"
+            android:parentActivityName=".Profile" />
+        <activity
+            android:name=".IdiReport"
+            android:parentActivityName=".Profile" />
+        <activity
+            android:name=".PreviousEpisode"
+            android:label="Previous Epidose"
+            android:parentActivityName=".DetailPasien" />
+        <activity
+            android:name=".TemplateRadiologi"
+            android:label="Template Radiologi"
+            android:parentActivityName=".Profile" />
+        <activity
+            android:name=".PopNama"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopEmail"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopNo"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopTmpt"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopDelete"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopEditResep"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopLab"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".HistoryPasienTudei"
+            android:label="Histori Pasien" />
+        <activity android:name=".LogBook"
+            android:label="Log Book"></activity>
+    </application>
+
+</manifest>

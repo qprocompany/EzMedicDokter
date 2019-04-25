@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/resepNav"
+        android:title="Template Resep"></item>
+
+    <item android:id="@+id/labNav"
+        android:title="Template Lab"></item>
+
+    <item android:id="@+id/radNav"
+        android:title="Template Radiologi"></item>
+
+    <item android:id="@+id/idiNav"
+        android:title="IDI Report"></item>
+
+    <item android:id="@+id/keluar"
+        android:title="Keluar"></item>
+
+</menu>
