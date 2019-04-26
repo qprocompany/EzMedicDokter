@@ -194,7 +194,7 @@
                                 android:orientation="horizontal">
 
                                 <TextView
-                                    android:id="@+id/nama2"
+                                    android:id="@+id/namaJadwal1"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
@@ -211,7 +211,7 @@
                                     android:gravity="center">
 
                                     <TextView
-                                        android:id="@+id/umur2"
+                                        android:id="@+id/umurJadwal1"
                                         android:layout_width="50dp"
                                         android:layout_height="wrap_content"
                                         android:text="25"

@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".DetailKedatanganPasien"
+            android:label="Detail kedatangan pasien"
+            android:parentActivityName=".JadwalPraktik"></activity>
         <activity
             android:name=".DetailPasienBatal"
             android:label="Pasien Batal"
             android:parentActivityName=".JadwalPraktik" />
-
         <activity
             android:name=".DetailPasienHadir"
             android:label="Pasien Hadir"

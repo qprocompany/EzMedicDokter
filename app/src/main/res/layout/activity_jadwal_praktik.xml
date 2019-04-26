@@ -146,6 +146,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/layerKedatangan"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginVertical="5dp"

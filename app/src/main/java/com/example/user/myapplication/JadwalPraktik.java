@@ -36,6 +36,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
 
     LinearLayout hadir, batal;
 
+    LinearLayout layerKedatangan;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -108,6 +110,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
         batal = (LinearLayout) findViewById(R.id.batal);
         hadir = (LinearLayout) findViewById(R.id.hadir);
 
+        layerKedatangan = (LinearLayout) findViewById(R.id.layerKedatangan);
+
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer);
         mToggle = new ActionBarDrawerToggle(this,mDrawerLayout, R.string.open, R.string.close);
         mDrawerLayout.addDrawerListener(mToggle);
@@ -124,7 +128,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
             public void onSelectedDayChange(@NonNull CalendarView calendarView, final int i, int i1, int i2) {
                 String date = (i1 + 1) + "/" + i2 + "/" + i;
 
-                if(date.equals("4/17/2019")){
+                if(date.equals("4/28/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("20");
@@ -178,12 +182,12 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien4.setElevation(5);
                     kedatangan4.setText("1");
-                    rate4.setText("4.8");
-                    bintang4.setImageResource(R.drawable.star);
+                    rate4.setText(" ");
+                    bintang4.setImageResource(R.color.ColorTransparent);
 
                     pasienHadir.setText("3");
                     pasienBatal.setText("1");
-                    persentase.setText("33,3%");
+                    persentase.setText("75%");
 
                     hadir.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -202,7 +206,16 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                         }
                     });
 
-                }else if (date.equals("4/20/2019")){
+                    layerKedatangan.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent intent = new Intent(JadwalPraktik.this, DetailKedatanganPasien.class);
+                            startActivity(intent);
+                        }
+                    });
+
+
+                } else if (date.equals("4/29/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto4);
                     namaJadwal1.setText("Bagus");
                     umurJadwal1.setText("18");
@@ -259,9 +272,192 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     rate4.setText("4.8");
                     bintang4.setImageResource(R.drawable.star);
 
-                    pasienHadir.setText("2");
-                    pasienBatal.setText("2");
-                    persentase.setText("50%");
+                    pasienHadir.setText("4");
+                    pasienBatal.setText("0");
+                    persentase.setText("100%");
+
+                }else if(date.equals("4/30/2019")){
+                    fotoJadwal1.setImageResource(R.drawable.foto7);
+                    namaJadwal1.setText("Andi");
+                    umurJadwal1.setText("20");
+                    genderJadwal1.setText("Laki-Laki");
+                    noJadwal1.setText("081212121212");
+                    thnJadwal1.setText("Thn");
+                    jadwalPasien1.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien1.setElevation(5);
+                    kedatangan1.setText("2");
+                    rate1.setText(" ");
+                    bintang1.setImageResource(R.color.ColorTransparent);
+
+                    fotoJadwal2.setImageResource(R.drawable.foto3);
+                    namaJadwal2.setText("Linda");
+                    umurJadwal2.setText("24");
+                    genderJadwal2.setText("Perempuan");
+                    noJadwal2.setText("081546464896");
+                    thnJadwal2.setText("Thn");
+                    jadwalPasien2.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien2.setElevation(5);
+                    kedatangan2.setText("1");
+                    rate2.setText(" ");
+                    bintang2.setImageResource(R.color.ColorTransparent);
+
+                    fotoJadwal3.setImageResource(R.drawable.foto4);
+                    namaJadwal3.setText("Agus");
+                    umurJadwal3.setText("24");
+                    genderJadwal3.setText("Laki-laki");
+                    noJadwal3.setText("081546464896");
+                    thnJadwal3.setText("Thn");
+                    jadwalPasien3.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien3.setElevation(5);
+                    kedatangan3.setText("1");
+                    rate3.setText(" ");
+                    bintang3.setImageResource(R.color.ColorTransparent);
+
+                    fotoJadwal4.setImageResource(R.drawable.foto5);
+                    namaJadwal4.setText("Supri");
+                    umurJadwal4.setText("24");
+                    genderJadwal4.setText("Laki-laki");
+                    noJadwal4.setText("081546464896");
+                    thnJadwal4.setText("Thn");
+                    jadwalPasien4.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien4.setElevation(5);
+                    kedatangan4.setText("1");
+                    rate4.setText(" ");
+                    bintang4.setImageResource(R.color.ColorTransparent);
+
+                    pasienHadir.setText(" ");
+                    pasienBatal.setText(" ");
+                    persentase.setText(" ");
+
+                }else if (date.equals("5/1/2019")){
+                    fotoJadwal1.setImageResource(R.drawable.foto6);
+                    namaJadwal1.setText("Milea");
+                    umurJadwal1.setText("18");
+                    genderJadwal1.setText("Perempuan");
+                    noJadwal1.setText("085846962589");
+                    thnJadwal1.setText("Thn");
+                    jadwalPasien1.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien1.setElevation(5);
+                    kedatangan1.setText("2");
+                    rate1.setText(" ");
+                    bintang1.setImageResource(R.color.ColorTransparent);
+
+                    fotoJadwal2.setImageResource(R.drawable.foto7);
+                    namaJadwal2.setText("Dilan");
+                    umurJadwal2.setText("33");
+                    genderJadwal2.setText("Laki-laki");
+                    noJadwal2.setText("081785715886");
+                    thnJadwal2.setText("Thn");
+                    jadwalPasien2.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien2.setElevation(5);
+                    kedatangan2.setText("1");
+                    rate2.setText(" ");
+                    bintang2.setImageResource(R.color.ColorTransparent);
+
+                    fotoJadwal3.setImageResource(R.drawable.foto8);
+                    namaJadwal3.setText("Supri");
+                    umurJadwal3.setText("24");
+                    genderJadwal3.setText("Laki-laki");
+                    noJadwal3.setText("081546464896");
+                    thnJadwal3.setText("Thn");
+                    jadwalPasien3.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien3.setElevation(5);
+                    kedatangan3.setText("1");
+                    rate3.setText(" ");
+                    bintang3.setImageResource(R.color.ColorTransparent);
+
+                    fotoJadwal4.setImageResource(R.drawable.foto9);
+                    namaJadwal4.setText("Biyon");
+                    umurJadwal4.setText("24");
+                    genderJadwal4.setText("Laki-laki");
+                    noJadwal4.setText("081546464896");
+                    thnJadwal4.setText("Thn");
+                    jadwalPasien4.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien4.setElevation(5);
+                    kedatangan4.setText("1");
+                    rate4.setText(" ");
+                    bintang4.setImageResource(R.color.ColorTransparent);
+
+                    pasienHadir.setText(" ");
+                    pasienBatal.setText(" ");
+                    persentase.setText(" ");
+
+                }else if (date.equals("5/2/2019")){
+                    fotoJadwal1.setImageResource(R.drawable.foto10);
+                    namaJadwal1.setText("Justin");
+                    umurJadwal1.setText("27");
+                    genderJadwal1.setText("Laki-laki");
+                    noJadwal1.setText("085846962589");
+                    thnJadwal1.setText("Thn");
+                    jadwalPasien1.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien1.setElevation(5);
+                    kedatangan1.setText("1");
+                    rate1.setText(" ");
+                    bintang1.setImageResource(R.color.ColorTransparent);
+
+                    fotoJadwal2.setImageResource(R.drawable.foto11);
+                    namaJadwal2.setText("Siti");
+                    umurJadwal2.setText("17");
+                    genderJadwal2.setText("Perempuan");
+                    noJadwal2.setText("081785715886");
+                    thnJadwal2.setText("Thn");
+                    jadwalPasien2.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien2.setElevation(5);
+                    kedatangan2.setText("2");
+                    rate2.setText(" ");
+                    bintang2.setImageResource(R.color.ColorTransparent);
+
+                    fotoJadwal3.setImageResource(R.drawable.foto12);
+                    namaJadwal3.setText("Jessica");
+                    umurJadwal3.setText("24");
+                    genderJadwal3.setText("Perempuan");
+                    noJadwal3.setText("081546464896");
+                    thnJadwal3.setText("Thn");
+                    jadwalPasien3.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien3.setElevation(5);
+                    kedatangan3.setText("1");
+                    rate3.setText(" ");
+                    bintang3.setImageResource(R.color.ColorTransparent);
+
+                    fotoJadwal4.setImageResource(R.drawable.foto4);
+                    namaJadwal4.setText("Agus");
+                    umurJadwal4.setText("24");
+                    genderJadwal4.setText("Laki-laki");
+                    noJadwal4.setText("081546464896");
+                    thnJadwal4.setText("Thn");
+                    jadwalPasien4.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    garisH4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
+                    jadwalPasien4.setElevation(5);
+                    kedatangan4.setText("1");
+                    rate4.setText(" ");
+                    bintang4.setImageResource(R.color.ColorTransparent);
+
+                    pasienHadir.setText(" ");
+                    pasienBatal.setText(" ");
+                    persentase.setText(" ");
 
                 }else {
                     fotoJadwal1.setImageResource(R.color.ColorTransparent);
