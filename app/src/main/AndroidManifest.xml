@@ -9,8 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
-            android:name=".MainActivity">
+            android:name=".DetailPasienBatal"
+            android:label="Pasien Batal"
+            android:parentActivityName=".JadwalPraktik" />
+
+        <activity
+            android:name=".DetailPasienHadir"
+            android:label="Pasien Hadir"
+            android:parentActivityName=".JadwalPraktik" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -74,8 +83,9 @@
         <activity
             android:name=".HistoryPasienTudei"
             android:label="Histori Pasien" />
-        <activity android:name=".LogBook"
-            android:label="Log Book"></activity>
+        <activity
+            android:name=".LogBook"
+            android:label="Log Book" />
     </application>
 
 </manifest>
