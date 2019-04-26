@@ -198,6 +198,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                         public void onClick(View view) {
                             Intent intent = new Intent(JadwalPraktik.this, DetailPasienBatal.class);
                             startActivity(intent);
+
                         }
                     });
 
