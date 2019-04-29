@@ -94,7 +94,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView9"
+                        android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Berat badan :"
@@ -107,7 +107,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textView16"
+                            android:id="@+id/textView31"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="5dp"
@@ -163,7 +163,7 @@
                             android:textSize="17dp" />
 
                         <TextView
-                            android:id="@+id/textView14"
+                            android:id="@+id/textView30"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="5dp"
