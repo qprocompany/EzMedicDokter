@@ -154,7 +154,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien2.setElevation(5);
                     kedatangan2.setText("1");
-                    rate2.setText("4.8");
+                    rate2.setText("4.5");
                     bintang2.setImageResource(R.drawable.star);
 
                     fotoJadwal3.setImageResource(R.drawable.foto4);
@@ -168,7 +168,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien3.setElevation(5);
                     kedatangan3.setText("1");
-                    rate3.setText("4.8");
+                    rate3.setText("4.5");
                     bintang3.setImageResource(R.drawable.star);
 
                     fotoJadwal4.setImageResource(R.drawable.foto5);
@@ -177,17 +177,18 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     genderJadwal4.setText("Laki-laki");
                     noJadwal4.setText("081546464896");
                     thnJadwal4.setText("Thn");
-                    jadwalPasien4.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
+                    jadwalPasien4.setBackground(getResources().getDrawable(R.drawable.radiusred));
                     garisH4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien4.setElevation(5);
                     kedatangan4.setText("1");
-                    rate4.setText(" ");
-                    bintang4.setImageResource(R.color.ColorTransparent);
+                    rate4.setText("-");
+                    bintang4.setImageResource(R.drawable.star);
 
                     pasienHadir.setText("3");
                     pasienBatal.setText("1");
                     persentase.setText("75%");
+
 
                     hadir.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -255,7 +256,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien3.setElevation(5);
                     kedatangan3.setText("1");
-                    rate3.setText("4.8");
+                    rate3.setText("4.5");
                     bintang3.setImageResource(R.drawable.star);
 
                     fotoJadwal4.setImageResource(R.drawable.foto4);
@@ -269,7 +270,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien4.setElevation(5);
                     kedatangan4.setText("1");
-                    rate4.setText("4.8");
+                    rate4.setText("4.5");
                     bintang4.setImageResource(R.drawable.star);
 
                     pasienHadir.setText("4");
@@ -288,8 +289,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien1.setElevation(5);
                     kedatangan1.setText("2");
-                    rate1.setText(" ");
-                    bintang1.setImageResource(R.color.ColorTransparent);
+                    rate1.setText("-");
+                    bintang1.setImageResource(R.drawable.star);
 
                     fotoJadwal2.setImageResource(R.drawable.foto3);
                     namaJadwal2.setText("Linda");
@@ -302,8 +303,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien2.setElevation(5);
                     kedatangan2.setText("1");
-                    rate2.setText(" ");
-                    bintang2.setImageResource(R.color.ColorTransparent);
+                    rate2.setText("-");
+                    bintang2.setImageResource(R.drawable.star);
 
                     fotoJadwal3.setImageResource(R.drawable.foto4);
                     namaJadwal3.setText("Agus");
@@ -316,8 +317,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien3.setElevation(5);
                     kedatangan3.setText("1");
-                    rate3.setText(" ");
-                    bintang3.setImageResource(R.color.ColorTransparent);
+                    rate3.setText("-");
+                    bintang3.setImageResource(R.drawable.star);
 
                     fotoJadwal4.setImageResource(R.drawable.foto5);
                     namaJadwal4.setText("Supri");
@@ -330,8 +331,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien4.setElevation(5);
                     kedatangan4.setText("1");
-                    rate4.setText(" ");
-                    bintang4.setImageResource(R.color.ColorTransparent);
+                    rate4.setText("-");
+                    bintang4.setImageResource(R.drawable.star);
 
                     pasienHadir.setText(" ");
                     pasienBatal.setText(" ");
@@ -349,8 +350,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien1.setElevation(5);
                     kedatangan1.setText("2");
-                    rate1.setText(" ");
-                    bintang1.setImageResource(R.color.ColorTransparent);
+                    rate1.setText("-");
+                    bintang1.setImageResource(R.drawable.star);
 
                     fotoJadwal2.setImageResource(R.drawable.foto7);
                     namaJadwal2.setText("Dilan");
@@ -363,8 +364,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien2.setElevation(5);
                     kedatangan2.setText("1");
-                    rate2.setText(" ");
-                    bintang2.setImageResource(R.color.ColorTransparent);
+                    rate2.setText("-");
+                    bintang2.setImageResource(R.drawable.star);
 
                     fotoJadwal3.setImageResource(R.drawable.foto8);
                     namaJadwal3.setText("Supri");
@@ -377,8 +378,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien3.setElevation(5);
                     kedatangan3.setText("1");
-                    rate3.setText(" ");
-                    bintang3.setImageResource(R.color.ColorTransparent);
+                    rate2.setText("-");
+                    bintang2.setImageResource(R.drawable.star);
 
                     fotoJadwal4.setImageResource(R.drawable.foto9);
                     namaJadwal4.setText("Biyon");
@@ -391,8 +392,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien4.setElevation(5);
                     kedatangan4.setText("1");
-                    rate4.setText(" ");
-                    bintang4.setImageResource(R.color.ColorTransparent);
+                    rate4.setText("-");
+                    bintang4.setImageResource(R.drawable.star);
 
                     pasienHadir.setText(" ");
                     pasienBatal.setText(" ");
@@ -410,8 +411,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien1.setElevation(5);
                     kedatangan1.setText("1");
-                    rate1.setText(" ");
-                    bintang1.setImageResource(R.color.ColorTransparent);
+                    rate1.setText("-");
+                    bintang1.setImageResource(R.drawable.star);
 
                     fotoJadwal2.setImageResource(R.drawable.foto11);
                     namaJadwal2.setText("Siti");
@@ -424,8 +425,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien2.setElevation(5);
                     kedatangan2.setText("2");
-                    rate2.setText(" ");
-                    bintang2.setImageResource(R.color.ColorTransparent);
+                    rate2.setText("-");
+                    bintang2.setImageResource(R.drawable.star);
 
                     fotoJadwal3.setImageResource(R.drawable.foto12);
                     namaJadwal3.setText("Jessica");
@@ -438,8 +439,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien3.setElevation(5);
                     kedatangan3.setText("1");
-                    rate3.setText(" ");
-                    bintang3.setImageResource(R.color.ColorTransparent);
+                    rate3.setText("-");
+                    bintang3.setImageResource(R.drawable.star);
 
                     fotoJadwal4.setImageResource(R.drawable.foto4);
                     namaJadwal4.setText("Agus");
@@ -452,8 +453,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien4.setElevation(5);
                     kedatangan4.setText("1");
-                    rate4.setText(" ");
-                    bintang4.setImageResource(R.color.ColorTransparent);
+                    rate4.setText("-");
+                    bintang4.setImageResource(R.drawable.star);
 
                     pasienHadir.setText(" ");
                     pasienBatal.setText(" ");
