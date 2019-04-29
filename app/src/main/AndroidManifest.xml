@@ -61,7 +61,7 @@
             android:label="Template Radiologi"
             android:parentActivityName=".Profile" />
         <activity
-            android:name=".PopNama"
+            android:name=".PopRating"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".PopEmail"

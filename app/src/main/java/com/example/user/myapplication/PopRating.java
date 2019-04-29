@@ -1,27 +1,28 @@
 package com.example.user.myapplication;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.DisplayMetrics;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
+import android.widget.RatingBar;
 
 /**
  * Created by USER on 4/8/2019.
  */
 
-public class PopNama extends Activity{
+public class PopRating extends Activity{
+
+    RatingBar ratingBar;
 
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.poprating);
 
+        ratingBar = (RatingBar) findViewById(R.id.ratingBar);
 
-        setContentView(R.layout.popnama);
+        ratingBar.setRating(Float.parseFloat("4.5"));
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -29,7 +30,7 @@ public class PopNama extends Activity{
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width*.8),(int) (height*.3));
+        getWindow().setLayout((int) (width*.8),(int) (height*.2));
 
     }
 }
