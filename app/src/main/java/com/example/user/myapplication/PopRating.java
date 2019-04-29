@@ -23,6 +23,7 @@ public class PopRating extends Activity{
         ratingBar = (RatingBar) findViewById(R.id.ratingBar);
 
         ratingBar.setRating(Float.parseFloat("4.5"));
+        ratingBar.setIsIndicator(true);
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
