@@ -1342,7 +1342,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@color/colorBlueJeans"
-                android:text="Tambah Jadwal Praktek"
+                android:text="Tambah Ranah Pembelajaran"
                 android:textColor="@color/colorWhite"
                 android:textSize="17dp"
                 android:textStyle="normal" />
