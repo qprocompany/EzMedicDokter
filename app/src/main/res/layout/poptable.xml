@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp">
+
+        <TextView
+            android:id="@+id/kegiatanTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input Nama Kegiatan"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputKegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tanggalTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input Tanggal Kegiatan"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/inputTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/buktiTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="input Dokumen Bukti"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputBukti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/urutanTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input No. Urutan Dokumen"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputUrutan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textSize="17dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/radiusbutton"
+            android:textColor="@color/colorWhite"
+            android:layout_marginVertical="10dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -17,7 +18,8 @@ public class LogBook extends AppCompatActivity implements NavigationView.OnNavig
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
 
-    TextView judulTable1, addRanahTxt1;
+    Button addRanahBtn1;
+    TextView judulTable1;
     LinearLayout ranahPembelajaran, ranahProfesional, ranahPengabdian, ranahPengembangan, ranahPublikasi, addRanah1;
 
 
@@ -35,8 +37,9 @@ public class LogBook extends AppCompatActivity implements NavigationView.OnNavig
         NavigationView navigationView = (NavigationView)findViewById(R.id.sideMenuHome);
         navigationView.setNavigationItemSelectedListener(this);
 
+        addRanahBtn1 = (Button) findViewById(R.id.addRanahBtn1);
+
         judulTable1 = (TextView) findViewById(R.id.judulTable1);
-        addRanahTxt1 = (TextView) findViewById(R.id.addRanahTxt1);
 
         addRanah1 = (LinearLayout) findViewById(R.id.addRanah1);
 
@@ -45,7 +48,7 @@ public class LogBook extends AppCompatActivity implements NavigationView.OnNavig
             @Override
             public void onClick(View view) {
                 judulTable1.setText("Ranah Pembelajaran");
-                addRanahTxt1.setText("Input Ranah Pembelajaran");
+                addRanahBtn1.setText("Input Ranah Pembelajaran");
                 addRanah1.setVisibility(view.VISIBLE);
             }
         });
@@ -64,7 +67,7 @@ public class LogBook extends AppCompatActivity implements NavigationView.OnNavig
             @Override
             public void onClick(View view) {
                 judulTable1.setText("Ranah Pengabdian Masyarakat");
-                addRanahTxt1.setText("Input Ranah Pengabdian Masyarakat");
+                addRanahBtn1.setText("Input Ranah Pengabdian Masyarakat");
                 addRanah1.setVisibility(view.VISIBLE);
             }
         });
@@ -74,7 +77,7 @@ public class LogBook extends AppCompatActivity implements NavigationView.OnNavig
             @Override
             public void onClick(View view) {
                 judulTable1.setText("Ranah Pengembangan Ilmu");
-                addRanahTxt1.setText("Input Ranah Pengembangan Ilmu");
+                addRanahBtn1.setText("Input Ranah Pengembangan Ilmu");
                 addRanah1.setVisibility(view.VISIBLE);
             }
         });
@@ -84,8 +87,16 @@ public class LogBook extends AppCompatActivity implements NavigationView.OnNavig
             @Override
             public void onClick(View view) {
                 judulTable1.setText("Ranah Publikasi Ilmiah");
-                addRanahTxt1.setText("Input Ranah Publikasi Ilmiah");
+                addRanahBtn1.setText("Input Ranah Publikasi Ilmiah");
                 addRanah1.setVisibility(view.VISIBLE);
+            }
+        });
+
+        addRanahBtn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LogBook.this , PopTable.class);
+                startActivity(intent);
             }
         });
 

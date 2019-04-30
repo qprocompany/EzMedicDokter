@@ -1332,18 +1332,20 @@
         <LinearLayout
             android:id="@+id/addRanah1"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_alignParentBottom="true">
 
-            <TextView
-                android:id="@+id/addRanahTxt1"
+            <Button
+                android:id="@+id/addRanahBtn1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:background="@drawable/radiusbutton"
-                android:text="Input Ranah Pembelajaran"
-                android:textSize="20dp" />
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorBlueJeans"
+                android:text="Tambah Jadwal Praktek"
+                android:textColor="@color/colorWhite"
+                android:textSize="17dp"
+                android:textStyle="normal" />
         </LinearLayout>
 
     </RelativeLayout>

@@ -64,7 +64,7 @@
             android:name=".PopRating"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name=".PopEmail"
+            android:name=".PopTable"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".PopNo"

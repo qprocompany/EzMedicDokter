@@ -9,14 +9,14 @@ import android.util.DisplayMetrics;
  * Created by USER on 4/8/2019.
  */
 
-public class PopEmail extends Activity {
+public class PopTable extends Activity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
 
-        setContentView(R.layout.popemail);
+        setContentView(R.layout.poptable);
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -24,7 +24,7 @@ public class PopEmail extends Activity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width*.8),(int) (height*.3));
+        getWindow().setLayout((int) (width*.8),(int) (height*.4));
 
     }
 }
