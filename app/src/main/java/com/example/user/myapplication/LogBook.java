@@ -9,10 +9,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class LogBook extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
+
+    TextView judulTable1, addRanahTxt1;
+    LinearLayout ranahPembelajaran, ranahProfesional, ranahPengabdian, ranahPengembangan, ranahPublikasi, addRanah1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +34,60 @@ public class LogBook extends AppCompatActivity implements NavigationView.OnNavig
 
         NavigationView navigationView = (NavigationView)findViewById(R.id.sideMenuHome);
         navigationView.setNavigationItemSelectedListener(this);
+
+        judulTable1 = (TextView) findViewById(R.id.judulTable1);
+        addRanahTxt1 = (TextView) findViewById(R.id.addRanahTxt1);
+
+        addRanah1 = (LinearLayout) findViewById(R.id.addRanah1);
+
+        ranahPembelajaran = (LinearLayout) findViewById(R.id.ranahPembelajaran);
+        ranahPembelajaran.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                judulTable1.setText("Ranah Pembelajaran");
+                addRanahTxt1.setText("Input Ranah Pembelajaran");
+                addRanah1.setVisibility(view.VISIBLE);
+            }
+        });
+
+        ranahProfesional = (LinearLayout) findViewById(R.id.ranahProfesional);
+        ranahProfesional.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                judulTable1.setText("Ranah Profesional");
+                addRanah1.setVisibility(view.INVISIBLE);
+            }
+        });
+
+        ranahPengabdian = (LinearLayout) findViewById(R.id.ranahPengabdian);
+        ranahPengabdian.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                judulTable1.setText("Ranah Pengabdian Masyarakat");
+                addRanahTxt1.setText("Input Ranah Pengabdian Masyarakat");
+                addRanah1.setVisibility(view.VISIBLE);
+            }
+        });
+
+        ranahPengembangan = (LinearLayout) findViewById(R.id.ranahPengembangan);
+        ranahPengembangan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                judulTable1.setText("Ranah Pengembangan Ilmu");
+                addRanahTxt1.setText("Input Ranah Pengembangan Ilmu");
+                addRanah1.setVisibility(view.VISIBLE);
+            }
+        });
+
+        ranahPublikasi = (LinearLayout) findViewById(R.id.ranahPublikasi);
+        ranahPublikasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                judulTable1.setText("Ranah Publikasi Ilmiah");
+                addRanahTxt1.setText("Input Ranah Publikasi Ilmiah");
+                addRanah1.setVisibility(view.VISIBLE);
+            }
+        });
 
     }
 
