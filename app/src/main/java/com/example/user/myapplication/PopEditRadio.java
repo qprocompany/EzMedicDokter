@@ -9,12 +9,12 @@ import android.util.DisplayMetrics;
  * Created by USER on 4/8/2019.
  */
 
-public class PopNo extends Activity {
+public class PopEditRadio extends Activity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.popno);
+        setContentView(R.layout.popeditradio);
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -22,7 +22,7 @@ public class PopNo extends Activity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width*.8),(int) (height*.3));
+        getWindow().setLayout((int) (width*.8),(int) (height*.7));
 
     }
 }

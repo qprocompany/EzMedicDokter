@@ -67,7 +67,7 @@
             android:name=".PopTable"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name=".PopNo"
+            android:name=".PopEditRadio"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".PopTmpt"

@@ -14,7 +14,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -60,30 +60,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/colorWhite"
-                        android:queryHint="Cari template resep"/>
+                        android:queryHint="Cari template resep" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginVertical="5dp"
-                    android:elevation="5dp"
-                    android:orientation="vertical">
-
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginHorizontal="50dp"
-                        android:background="@drawable/radiusbutton"
-                        android:text="tambah template"
-                        android:textSize="17dp"
-                        android:textColor="@color/colorWhite"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/layerResep1"
+                    android:id="@+id/layerRadio1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
@@ -94,47 +75,47 @@
 
 
                     <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/namaResep1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="0.8"
-                        android:text="Obat Panas"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_weight="1"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:id="@+id/editResep1"
-                            android:layout_width="50dp"
+                        <TextView
+                            android:id="@+id/namaResep1"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            app:srcCompat="@drawable/edit" />
+                            android:layout_weight="0.8"
+                            android:text="Obat Panas"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
 
-                        <ImageView
-                            android:id="@+id/deleteResep1"
-                            android:layout_width="50dp"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="5dp"
-                            app:srcCompat="@drawable/delete" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/editResep1"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/edit" />
+
+                            <ImageView
+                                android:id="@+id/deleteResep1"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/delete" />
+                        </LinearLayout>
+
                     </LinearLayout>
 
                 </LinearLayout>
 
-                </LinearLayout>
-
                 <LinearLayout
-                    android:id="@+id/layerResep2"
+                    android:id="@+id/layerRadio2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
@@ -188,6 +169,23 @@
         </LinearLayout>
 
 
-
     </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlueJeans"
+            android:text="tambah template"
+            android:textColor="@color/colorWhite"
+            android:textSize="17dp" />
+    </LinearLayout>
+
 </RelativeLayout>

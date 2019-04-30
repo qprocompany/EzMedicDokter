@@ -16,7 +16,7 @@ public class TemplateResep extends AppCompatActivity {
         setContentView(R.layout.activity_template_resep);
 
         editResep1 = (ImageView) findViewById(R.id.editResep1);
-        editResep2 = (ImageView) findViewById(R.id.editResep1);
+        editResep2 = (ImageView) findViewById(R.id.editResep2);
         deleteResep1 = (ImageView) findViewById(R.id.deleteResep1);
         deleteResep2 = (ImageView) findViewById(R.id.deleteResep2);
 
