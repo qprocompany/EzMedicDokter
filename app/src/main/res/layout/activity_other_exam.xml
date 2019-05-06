@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.myapplication.TemplateRadiologi"
+    tools:context="com.example.user.myapplication.OtherExam"
     android:background="@color/colorWhite">
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -56,7 +57,7 @@
                     android:orientation="vertical">
 
                     <SearchView
-                        android:id="@+id/searchRadio"
+                        android:id="@+id/searchOther"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/colorWhite"
@@ -81,12 +82,11 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/namaResep1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:layout_weight="0.8"
-                            android:text="Radiologi 1"
+                            android:text="Other 1"
                             android:textSize="17dp"
                             android:textStyle="bold" />
 
@@ -96,7 +96,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/editRadio1"
+                                android:id="@+id/editOther1"
                                 android:layout_width="50dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
@@ -104,7 +104,7 @@
                                 app:srcCompat="@drawable/edit" />
 
                             <ImageView
-                                android:id="@+id/deleteRadio1"
+                                android:id="@+id/deleteOther1"
                                 android:layout_width="50dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
@@ -135,12 +135,11 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/namaResep2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:layout_weight="0.8"
-                            android:text="Radiologi 2"
+                            android:text="Other 2"
                             android:textSize="17dp"
                             android:textStyle="bold" />
 
@@ -150,7 +149,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/editRadio2"
+                                android:id="@+id/editOther2"
                                 android:layout_width="50dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
@@ -158,7 +157,7 @@
                                 app:srcCompat="@drawable/edit" />
 
                             <ImageView
-                                android:id="@+id/deleteRadio2"
+                                android:id="@+id/deleteOther2"
                                 android:layout_width="50dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"

@@ -1,7 +1,6 @@
 package com.example.user.myapplication;
 
 import android.content.Intent;
-import android.media.Image;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -69,8 +68,8 @@ public class Profile extends AppCompatActivity {
                 startActivity(new Intent(this, TemplateRadiologi.class));
                 return true;
 
-            case R.id.idiNav:
-                startActivity(new Intent(this, IdiReport.class));
+            case R.id.otherNav:
+                startActivity(new Intent(this, OtherExam.class));
                 return true;
         }
 

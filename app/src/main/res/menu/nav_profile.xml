@@ -11,8 +11,8 @@
     <item android:id="@+id/radNav"
         android:title="Template Radiologi"></item>
 
-    <item android:id="@+id/idiNav"
-        android:title="IDI Report"></item>
+    <item android:id="@+id/otherNav"
+        android:title="Other Exam"></item>
 
     <item android:id="@+id/keluar"
         android:title="Keluar"></item>

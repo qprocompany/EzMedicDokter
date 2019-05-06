@@ -50,7 +50,8 @@
             android:label="Template Lab"
             android:parentActivityName=".Profile" />
         <activity
-            android:name=".IdiReport"
+            android:name=".OtherExam"
+            android:label="Other Exam"
             android:parentActivityName=".Profile" />
         <activity
             android:name=".PreviousEpisode"
