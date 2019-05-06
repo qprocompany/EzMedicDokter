@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
         if (id == R.id.logbook){
-            startActivity(new Intent(this, LogBook.class));
+            startActivity(new Intent(this, SKP.class));
         }
 
         return false;

@@ -1,8 +1,6 @@
 package com.example.user.myapplication;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.media.Image;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
@@ -16,8 +14,6 @@ import android.widget.CalendarView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -563,7 +559,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
             startActivity(new Intent(this, JadwalPraktik.class));
         }
         if (id == R.id.logbook){
-            startActivity(new Intent(this, LogBook.class));
+            startActivity(new Intent(this, SKP.class));
         }
 
         return false;

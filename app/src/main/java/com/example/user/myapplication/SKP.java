@@ -14,7 +14,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class LogBook extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
+public class SKP extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
 
@@ -26,7 +26,7 @@ public class LogBook extends AppCompatActivity implements NavigationView.OnNavig
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_log_book);
+        setContentView(R.layout.activity_skp);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer);
         mToggle = new ActionBarDrawerToggle(this,mDrawerLayout, R.string.open, R.string.close);
@@ -95,7 +95,7 @@ public class LogBook extends AppCompatActivity implements NavigationView.OnNavig
         addRanahBtn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LogBook.this , PopTable.class);
+                Intent intent = new Intent(SKP.this , PopTable.class);
                 startActivity(intent);
             }
         });
@@ -136,7 +136,7 @@ public class LogBook extends AppCompatActivity implements NavigationView.OnNavig
             startActivity(new Intent(this, JadwalPraktik.class));
         }
         if (id == R.id.logbook){
-            startActivity(new Intent(this, LogBook.class));
+            startActivity(new Intent(this, SKP.class));
         }
 
         return false;

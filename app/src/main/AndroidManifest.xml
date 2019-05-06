@@ -85,7 +85,7 @@
             android:name=".HistoryPasienTudei"
             android:label="Histori Pasien" />
         <activity
-            android:name=".LogBook"
+            android:name=".SKP"
             android:label="Log Book" />
     </application>
 
