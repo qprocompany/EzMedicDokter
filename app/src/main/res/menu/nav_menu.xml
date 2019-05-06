@@ -9,7 +9,7 @@
         android:icon="@drawable/schedule"></item>
 
     <item android:id="@+id/logbook"
-        android:title="Log Book"
+        android:title="SKP"
         android:icon="@drawable/logbook"></item>
 
     <item android:id="@+id/keluar"

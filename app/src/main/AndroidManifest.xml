@@ -90,7 +90,7 @@
             android:label="Histori Pasien" />
         <activity
             android:name=".SKP"
-            android:label="Log Book" />
+            android:label="SKP" />
     </application>
 
 </manifest>
