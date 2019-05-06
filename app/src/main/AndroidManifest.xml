@@ -83,7 +83,7 @@
             android:name=".PopEditOther"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name=".PopLab"
+            android:name=".PopEditLab"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".HistoryPasienTudei"
