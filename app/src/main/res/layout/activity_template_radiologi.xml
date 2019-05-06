@@ -60,7 +60,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/colorWhite"
-                        android:queryHint="Cari template resep" />
+                        android:queryHint="Cari template radiololgi" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -80,15 +80,66 @@
                         android:layout_weight="1"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:id="@+id/namaResep1"
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:layout_weight="0.8"
-                            android:text="Radiologi 1"
-                            android:textSize="17dp"
-                            android:textStyle="bold" />
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/namaRadio1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Radiologi 1"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView"
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text="Rd/"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:id="@+id/textView38"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Radiologi"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text=" "
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:id="@+id/textView40"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="..."
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -97,20 +148,17 @@
 
                             <ImageView
                                 android:id="@+id/editRadio1"
-                                android:layout_width="50dp"
+                                android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:layout_weight="1"
                                 app:srcCompat="@drawable/edit" />
 
                             <ImageView
                                 android:id="@+id/deleteRadio1"
-                                android:layout_width="50dp"
+                                android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:layout_weight="1"
                                 app:srcCompat="@drawable/delete" />
-
                         </LinearLayout>
 
                     </LinearLayout>
@@ -134,15 +182,65 @@
                         android:layout_weight="1"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:id="@+id/namaResep2"
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:layout_weight="0.8"
-                            android:text="Radiologi 2"
-                            android:textSize="17dp"
-                            android:textStyle="bold" />
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/namaRadio2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Radiologi 2"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text="R/"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:id="@+id/textView39"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Radiologi"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text=" "
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:id="@+id/textView41"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="..."
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -151,20 +249,17 @@
 
                             <ImageView
                                 android:id="@+id/editRadio2"
-                                android:layout_width="50dp"
+                                android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:layout_weight="1"
                                 app:srcCompat="@drawable/edit" />
 
                             <ImageView
                                 android:id="@+id/deleteRadio2"
-                                android:layout_width="50dp"
+                                android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:layout_weight="1"
                                 app:srcCompat="@drawable/delete" />
-
                         </LinearLayout>
 
                     </LinearLayout>

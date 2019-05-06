@@ -60,11 +60,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/colorWhite"
-                        android:queryHint="Cari template resep" />
+                        android:queryHint="Cari template lab" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/layerRadio1"
+                    android:id="@+id/layerLab1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
@@ -80,15 +80,62 @@
                         android:layout_weight="1"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:id="@+id/namaLab1"
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:layout_weight="0.8"
-                            android:text="Lab 1"
-                            android:textSize="17dp"
-                            android:textStyle="bold" />
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/namaLab1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Lab 1"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text="L/"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Laboratory"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text=" "
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="..."
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -97,20 +144,17 @@
 
                             <ImageView
                                 android:id="@+id/editLab1"
-                                android:layout_width="50dp"
+                                android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:layout_weight="1"
                                 app:srcCompat="@drawable/edit" />
 
                             <ImageView
                                 android:id="@+id/deleteLab1"
-                                android:layout_width="50dp"
+                                android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:layout_weight="1"
                                 app:srcCompat="@drawable/delete" />
-
                         </LinearLayout>
 
                     </LinearLayout>
@@ -118,7 +162,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/layerRadio2"
+                    android:id="@+id/layerLab2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
@@ -134,15 +178,66 @@
                         android:layout_weight="1"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:id="@+id/namaLab2"
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:layout_weight="0.8"
-                            android:text="Lab 2"
-                            android:textSize="17dp"
-                            android:textStyle="bold" />
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/namaLab2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Lab 2"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView"
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text="L/"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:id="@+id/textView38"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Laboratory"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text=" "
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:id="@+id/textView40"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="..."
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -151,25 +246,23 @@
 
                             <ImageView
                                 android:id="@+id/editLab2"
-                                android:layout_width="50dp"
+                                android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:layout_weight="1"
                                 app:srcCompat="@drawable/edit" />
 
                             <ImageView
                                 android:id="@+id/deleteLab2"
-                                android:layout_width="50dp"
+                                android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:layout_weight="1"
                                 app:srcCompat="@drawable/delete" />
-
                         </LinearLayout>
 
                     </LinearLayout>
 
                 </LinearLayout>
+
             </LinearLayout>
 
         </LinearLayout>
