@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.DisplayMetrics;
 
-class PopEditOther extends Activity {
+public class PopEditOther extends Activity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

@@ -80,6 +80,9 @@
             android:name=".PopEditResep"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
+            android:name=".PopEditOther"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
             android:name=".PopLab"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity

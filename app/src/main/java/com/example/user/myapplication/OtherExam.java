@@ -31,7 +31,7 @@ public class OtherExam extends AppCompatActivity {
         editOther2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OtherExam.this, PopEditRadio.class);
+                Intent intent = new Intent(OtherExam.this, PopEditOther.class);
                 startActivity(intent);
             }
         });
