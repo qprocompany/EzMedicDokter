@@ -861,6 +861,12 @@
 
                             <LinearLayout
                                 android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorBlack"
+                                android:orientation="horizontal"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical">
 
@@ -910,8 +916,8 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
-                                    android:textSize="17dp" />
+                                    android:textAlignment="textEnd"
+                                    android:textSize="17dp"/>
                             </LinearLayout>
 
                             <LinearLayout
@@ -924,7 +930,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -938,7 +944,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -952,7 +958,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -966,9 +972,15 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorBlack"
+                                android:orientation="horizontal"></LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -980,7 +992,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -1021,7 +1033,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -1035,7 +1047,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -1049,7 +1061,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -1063,7 +1075,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -1077,9 +1089,15 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorBlack"
+                                android:orientation="horizontal"></LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1091,7 +1109,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -1132,7 +1150,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0%"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -1146,7 +1164,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0%"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -1160,7 +1178,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0%"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -1174,7 +1192,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0%"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
@@ -1188,9 +1206,15 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0%"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorBlack"
+                                android:orientation="horizontal"></LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1202,7 +1226,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="0%"
-                                    android:textAlignment="center"
+                                    android:textAlignment="textEnd"
                                     android:textSize="17dp" />
                             </LinearLayout>
 
