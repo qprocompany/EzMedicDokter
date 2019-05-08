@@ -178,7 +178,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text=""
+                                    android:text="Panas Tinggi"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -337,7 +337,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text=""
+                                    android:text="Flu"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -496,7 +496,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text=""
+                                    android:text="Flu"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -635,7 +635,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="30 April 2019 , 15:315"
+                                    android:text="30 April 2019 , 15:15"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -655,7 +655,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text=""
+                                    android:text="Panas Tinggi"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -814,7 +814,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text=""
+                                    android:text="Panas tinggi"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
