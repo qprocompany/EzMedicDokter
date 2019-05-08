@@ -92,6 +92,9 @@
             android:name=".PopConfirm"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
+            android:name=".PopReschedule"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
             android:name=".HistoryPasienTudei"
             android:label="Histori Pasien" />
         <activity

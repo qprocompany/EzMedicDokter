@@ -190,7 +190,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     pasienBatal.setText("1");
                     persentase.setText("75%");
 
-
+                    button.setText("");
+                    button.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
 
 
                     hadir.setOnClickListener(new View.OnClickListener() {
@@ -276,6 +277,9 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     rate4.setText("4.5");
                     bintang4.setImageResource(R.drawable.star);
 
+                    button.setText("");
+                    button.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
+
                     pasienHadir.setText("4");
                     pasienBatal.setText("0");
                     persentase.setText("100%");
@@ -336,6 +340,16 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     kedatangan4.setText("1");
                     rate4.setText("-");
                     bintang4.setImageResource(R.drawable.star);
+
+                    button.setText("Reschedule / Batal");
+                    button.setBackground(getResources().getDrawable(R.drawable.radiusbutton));
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent intent = new Intent(JadwalPraktik.this, PopReschedule.class);
+                            startActivity(intent);
+                        }
+                    });
 
                     pasienHadir.setText(" ");
                     pasienBatal.setText(" ");
@@ -398,6 +412,9 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     rate4.setText("-");
                     bintang4.setImageResource(R.drawable.star);
 
+                    button.setText("Reschedule / Batal");
+                    button.setBackground(getResources().getDrawable(R.drawable.radiusbutton));
+
                     pasienHadir.setText(" ");
                     pasienBatal.setText(" ");
                     persentase.setText(" ");
@@ -459,6 +476,9 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     rate4.setText("-");
                     bintang4.setImageResource(R.drawable.star);
 
+                    button.setText("Reschedule / Batal");
+                    button.setBackground(getResources().getDrawable(R.drawable.radiusbutton));
+
                     pasienHadir.setText(" ");
                     pasienBatal.setText(" ");
                     persentase.setText(" ");
@@ -519,6 +539,9 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     kedatangan4.setText(" ");
                     rate4.setText(" ");
                     bintang4.setImageResource(R.color.ColorTransparent);
+
+                    button.setText("");
+                    button.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
 
                     pasienHadir.setText(" ");
                     pasienBatal.setText(" ");

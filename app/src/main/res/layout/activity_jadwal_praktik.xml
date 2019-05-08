@@ -685,7 +685,13 @@
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="" />
+                android:text=""
+                android:background="@color/ColorTransparent"
+                android:textSize="17dp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="10dp"
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
