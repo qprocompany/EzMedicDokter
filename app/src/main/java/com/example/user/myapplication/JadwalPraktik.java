@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -33,6 +34,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
     LinearLayout hadir, batal;
 
     LinearLayout layerKedatangan;
+
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -108,6 +111,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
 
         layerKedatangan = (LinearLayout) findViewById(R.id.layerKedatangan);
 
+        button = (Button) findViewById(R.id.button);
+
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer);
         mToggle = new ActionBarDrawerToggle(this,mDrawerLayout, R.string.open, R.string.close);
         mDrawerLayout.addDrawerListener(mToggle);
@@ -124,7 +129,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
             public void onSelectedDayChange(@NonNull CalendarView calendarView, final int i, int i1, int i2) {
                 String date = (i1 + 1) + "/" + i2 + "/" + i;
 
-                if(date.equals("4/28/2019")){
+                if(date.equals("5/7/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("20");
@@ -186,6 +191,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     persentase.setText("75%");
 
 
+
+
                     hadir.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -212,7 +219,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     });
 
 
-                } else if (date.equals("4/29/2019")){
+                } else if (date.equals("5/8/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto4);
                     namaJadwal1.setText("Bagus");
                     umurJadwal1.setText("18");
@@ -273,7 +280,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     pasienBatal.setText("0");
                     persentase.setText("100%");
 
-                }else if(date.equals("4/30/2019")){
+                }else if(date.equals("5/9/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("20");
@@ -334,7 +341,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     pasienBatal.setText(" ");
                     persentase.setText(" ");
 
-                }else if (date.equals("5/1/2019")){
+                }else if (date.equals("5/10/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto6);
                     namaJadwal1.setText("Milea");
                     umurJadwal1.setText("18");
@@ -395,7 +402,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     pasienBatal.setText(" ");
                     persentase.setText(" ");
 
-                }else if (date.equals("5/2/2019")){
+                }else if (date.equals("5/11/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto10);
                     namaJadwal1.setText("Justin");
                     umurJadwal1.setText("27");
