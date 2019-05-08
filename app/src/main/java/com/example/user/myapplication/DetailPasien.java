@@ -8,12 +8,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 public class DetailPasien extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     Spinner spinnerDiagnosa;
     Spinner spinnerObat;
-    Button buttonPrevious;
+    Button buttonPrevious, confirm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +37,16 @@ public class DetailPasien extends AppCompatActivity implements AdapterView.OnIte
             public void onClick(View view) {
                 Intent intent = new Intent(DetailPasien.this, PreviousEpisode.class);
                 startActivity(intent);
+            }
+        });
+
+        confirm = (Button) findViewById(R.id.confirm);
+        confirm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DetailPasien.this, PopConfirm.class);
+                startActivity(intent);
+
             }
         });
 

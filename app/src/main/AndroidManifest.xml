@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetailKedatanganPasien"
+        <activity android:name=".PopPoin"
+            android:theme="@style/AppTheme.CustomThemePoin"></activity>
+        <activity
+            android:name=".DetailKedatanganPasien"
             android:label="Detail kedatangan pasien"
-            android:parentActivityName=".JadwalPraktik"></activity>
+            android:parentActivityName=".JadwalPraktik" />
         <activity
             android:name=".DetailPasienBatal"
             android:label="Pasien Batal"
@@ -84,6 +87,9 @@
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".PopEditLab"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopConfirm"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".HistoryPasienTudei"
