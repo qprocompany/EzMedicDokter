@@ -97,7 +97,7 @@
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:layout_centerHorizontal="true"
-            android:background="@color/colorAquaDark"
+            android:background="@drawable/radiusbutton"
             android:fontFamily="sans-serif-medium"
             android:text="SUBMIT"
             android:textAllCaps="false"
