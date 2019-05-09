@@ -29,6 +29,7 @@ public class Settings extends AppCompatActivity implements AdapterView.OnItemSel
         settingWaktu.add("5 Menit");
         settingWaktu.add("10 Menit");
         settingWaktu.add("15 Menit");
+        settingWaktu.add("20 Menit");
 
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(Settings.this, android.R.layout.simple_spinner_item, settingWaktu);
