@@ -22,7 +22,7 @@ public class PopPoin extends Activity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width*.8),(int) (height*.3));
+        getWindow().setLayout((int) (width*.8),(int) (height*.4));
 
         ok = (Button) findViewById(R.id.ok);
         ok.setOnClickListener(new View.OnClickListener() {
