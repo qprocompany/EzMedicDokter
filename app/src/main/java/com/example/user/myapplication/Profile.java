@@ -68,6 +68,10 @@ public class Profile extends AppCompatActivity {
                 startActivity(new Intent(this, TemplateRadiologi.class));
                 return true;
 
+            case R.id.settingsNav:
+                startActivity(new Intent(this, Settings.class));
+                return true;
+
             case R.id.otherNav:
                 startActivity(new Intent(this, OtherExam.class));
                 return true;

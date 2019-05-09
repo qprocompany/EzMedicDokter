@@ -2,4 +2,109 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pilih Lama Delay"
+            android:textSize="25dp"
+            android:padding="10dp"/>
+
+        <Spinner
+            android:id="@+id/delaytimeList"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilih Alasan Delay"
+                android:textSize="25dp"
+                android:padding="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <RadioGroup
+                    android:id="@+id/alasanRad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/alesan1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Acara Keluarga"
+                        android:textSize="17dp"/>
+
+                    <RadioButton
+                        android:id="@+id/alesan2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Macet"
+                        android:textSize="17dp" />
+
+                    <RadioButton
+                        android:id="@+id/alesan3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Sakit"
+                        android:textSize="17dp" />
+
+                    <RadioButton
+                        android:id="@+id/alesan4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Seminar"
+                        android:textSize="17dp" />
+
+                    <RadioButton
+                        android:id="@+id/alesan5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Kesiangan"
+                        android:textSize="17dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/LOGOUT"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorAquaDark"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBMIT"
+            android:textAllCaps="false"
+            android:textColor="@color/blue50"
+            android:textSize="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
 </RelativeLayout>

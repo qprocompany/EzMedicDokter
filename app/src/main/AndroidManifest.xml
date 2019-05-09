@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PopPoin"
-            android:theme="@style/AppTheme.CustomThemePoin"></activity>
+        <activity
+            android:name=".Settings"
+            android:label="Pengaturan"
+            android:parentActivityName=".Profile"/>
+        <activity
+            android:name=".PopPoin"
+            android:theme="@style/AppTheme.CustomThemePoin" />
         <activity
             android:name=".DetailKedatanganPasien"
             android:label="Detail kedatangan pasien"
