@@ -13,13 +13,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.SearchView;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
     SearchView search;
-    LinearLayout layerPasien, historyTudei, listPasien;
+    LinearLayout layerPasien, historyTudei, listPasien, call1;
 
 
     @Override
@@ -64,6 +65,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MainActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        call1 = (LinearLayout) findViewById(R.id.call1);
+        call1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Memanggil pasien", Toast.LENGTH_SHORT).show();
             }
         });
 
