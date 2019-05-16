@@ -180,88 +180,28 @@
                         android:textStyle="bold" />
 
                     <LinearLayout
+                        android:id="@+id/diagnose1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal"
                         android:weightSum="3">
 
                         <CheckBox
-                            android:id="@+id/checkBox10"
+                            android:id="@+id/cbDiagnose1"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_weight="1"
+                            android:layout_weight="2"
                             android:text="Demam"
                             android:textSize="15dp" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox11"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="Flu"
-                            android:textSize="15dp" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox12"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="DBD"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"
-                        android:weightSum="3">
-
-                        <CheckBox
-                            android:id="@+id/checkBox13"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="Tipes"
-                            android:textSize="15dp" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox14"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="Sakit kepala"
-                            android:textSize="15dp" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox15"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="Pusing"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Status :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
 
                         <RadioGroup
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:layout_weight="1"
                             android:orientation="horizontal">
 
                             <RadioButton
-                                android:id="@+id/radioButton6"
+                                android:id="@+id/confirmRB1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -269,7 +209,47 @@
                                 android:textSize="15dp" />
 
                             <RadioButton
-                                android:id="@+id/radioButton5"
+                                android:id="@+id/suspectRB1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="Suspect"
+                                android:textSize="15dp" />
+
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/diagnose2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <CheckBox
+                            android:id="@+id/cbDiagnose2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:text="Panas"
+                            android:textSize="15dp" />
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/confirmRB2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Confirmed"
+                                android:textSize="15dp" />
+
+                            <RadioButton
+                                android:id="@+id/suspectRB2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -277,8 +257,48 @@
                                 android:textSize="15dp" />
 
                         </RadioGroup>
-
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/diagnose3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <CheckBox
+                            android:id="@+id/cbDiagnose3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:text="Pusing"
+                            android:textSize="15dp" />
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <RadioButton
+                                android:id="@+id/confirmRB3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Confirmed"
+                                android:textSize="15dp" />
+
+                            <RadioButton
+                                android:id="@+id/suspectRB3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Suspect"
+                                android:textSize="15dp" />
+
+                        </RadioGroup>
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
