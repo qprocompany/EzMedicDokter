@@ -29,15 +29,15 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="EMR"
+                        android:text="PROBLEM"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -49,24 +49,219 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_marginVertical="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
                     android:orientation="vertical">
 
-
-                    <Button
-                        android:id="@+id/buttonPrevious"
-                        android:layout_width="wrap_content"
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/radiusbutton"
-                        android:elevation="5dp"
-                        android:padding="5dp"
-                        android:text="Previous episode"
-                        android:textColor="@color/colorWhite"
-                        android:textSize="15dp" />
+                        android:text="Masalah :"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkBox3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="problem 1" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="problem 2" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="problem 3" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkBox4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="problem 4" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="problem 5" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="problem 6" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkBox7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="problem 7" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="problem 8" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="problem 9" />
+
+                    </LinearLayout>
+
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ALERGI"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBlack"
+                        android:orientation="vertical"></LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Alergi :"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="alergi 1" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="alergi 2" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="alergi 3" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="alergi 4" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="alergi 5" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="alergi 6" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="alergi 7" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="alergi 8" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="alergi 9" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -283,391 +478,6 @@
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="MASALAH &amp; ALERGI"
-                        android:textSize="20dp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/colorBlack"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView33"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Masalah :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkBox3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 1" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 2" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 3" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkBox4"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 4" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox5"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 5" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox6"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 6" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkBox7"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 7" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox8"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 8" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox9"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 9" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView35"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Alergi :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 1" />
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 2" />
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 3" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 4" />
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 5" />
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 6" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 7" />
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 8" />
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 9" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="DIAGNOSA &amp; RESEP"
-                        android:textSize="20dp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/colorBlack"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Diagnosa :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-
-                    <Spinner
-                        android:id="@+id/spinnerDiagnosa"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:layout_margin="5dp"
-                        android:background="@drawable/radiuswhite"
-                        android:elevation="5dp" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Resep obat :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-
-                    <Spinner
-                        android:id="@+id/spinnerObat"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:layout_margin="5dp"
-                        android:background="@drawable/radiuswhite"
-                        android:elevation="5dp" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="NEXT APPOINMENT"
-                        android:textSize="20dp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/colorBlack"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Add Schedule"
-                        android:layout_marginHorizontal="5dp"
-                        android:elevation="5dp"
-                        android:padding="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/colorWhite"
-                        android:background="@drawable/radiusbutton"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="REFER TO"
-                        android:textSize="20dp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/colorBlack"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Refer ke dokter :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-
-                    <EditText
-                        android:id="@+id/editText11"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ems="10"
-                        android:inputType="text" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Di Rumah Sakit / Klinik :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-
-                    <EditText
-                        android:id="@+id/editText13"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ems="10"
-                        android:inputType="text" />
-
-                </LinearLayout>
 
             </LinearLayout>
 
@@ -683,7 +493,7 @@
                     android:id="@+id/confirm"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="Confirm"
+                    android:text="Next"
                     android:textSize="15dp"
                     android:textColor="@color/colorWhite"
                     android:background="@drawable/radiusbutton"
