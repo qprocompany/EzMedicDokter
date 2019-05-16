@@ -44,7 +44,7 @@
         <activity
             android:name=".DetailPasien"
             android:label="Detail Pasien"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".PreviousEpisode" />
         <activity
             android:name=".UpdateProfile"
             android:label="Update Profile"
@@ -64,7 +64,7 @@
         <activity
             android:name=".PreviousEpisode"
             android:label="Previous Epidose"
-            android:parentActivityName=".DetailPasien" />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".TemplateRadiologi"
             android:label="Template Radiologi"
