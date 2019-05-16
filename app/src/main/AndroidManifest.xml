@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".DetailPreviousEpisode"
+            android:label="Detail Riwayat Pasien"
+            android:parentActivityName=".PreviousEpisode"></activity>
         <activity
             android:name=".Settings"
             android:label="Pengaturan"
-            android:parentActivityName=".Profile"/>
+            android:parentActivityName=".Profile" />
         <activity
             android:name=".PopPoin"
             android:theme="@style/AppTheme.CustomThemePoin" />
@@ -63,7 +66,7 @@
             android:parentActivityName=".Profile" />
         <activity
             android:name=".PreviousEpisode"
-            android:label="Previous Epidose"
+            android:label="Riwayat Kunjungan"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".TemplateRadiologi"
@@ -105,6 +108,7 @@
         <activity
             android:name=".SKP"
             android:label="SKP" />
+
     </application>
 
 </manifest>
