@@ -191,7 +191,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Demam"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                         <CheckBox
                             android:id="@+id/checkBox11"
@@ -199,7 +199,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Flu"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                         <CheckBox
                             android:id="@+id/checkBox12"
@@ -207,7 +207,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="DBD"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -222,7 +222,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Tipes"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                         <CheckBox
                             android:id="@+id/checkBox14"
@@ -230,7 +230,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Sakit kepala"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                         <CheckBox
                             android:id="@+id/checkBox15"
@@ -238,7 +238,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Pusing"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
                     </LinearLayout>
 
 
@@ -250,11 +250,12 @@
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
-                    <RadioGroup
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
+                        <RadioGroup
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:orientation="horizontal">
@@ -265,7 +266,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="Confirmed"
-                                android:textSize="15dp"/>
+                                android:textSize="15dp" />
 
                             <RadioButton
                                 android:id="@+id/radioButton5"
@@ -273,9 +274,11 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="Suspect"
-                                android:textSize="15dp"/>
-                        </LinearLayout>
-                    </RadioGroup>
+                                android:textSize="15dp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -325,21 +328,21 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Prosedur 1"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="prosedur 2"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="prosedur 3"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                     </LinearLayout>
 
@@ -353,21 +356,21 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="prosedur 4"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="prosedur 5"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="prosedur 6"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                     </LinearLayout>
 
@@ -381,24 +384,64 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="prosedur 7"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="prosedur 8"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="prosedur 9"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                     </LinearLayout>
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="KUNJUNGAN BERIKUT"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBlack"
+                        android:orientation="vertical"></LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tambah Pertemuan"
+                        android:elevation="5dp"
+                        android:textSize="15dp"
+                        android:background="@drawable/radiusbutton"
+                        android:textColor="@color/colorWhite"/>
                 </LinearLayout>
 
 
@@ -406,6 +449,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -427,8 +471,36 @@
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginTop="5dp"
-                    android:orientation="vertical"/>
+                    android:orientation="vertical">
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rujuk ke dokter :"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editText11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="text" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Di Rumah Sakit / Klinik :"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editText13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="text" />
+                </LinearLayout>
 
             </LinearLayout>
 
