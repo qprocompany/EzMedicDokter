@@ -17,6 +17,7 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/progressBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
@@ -134,6 +135,11 @@
                 </LinearLayout>
             </LinearLayout>
 
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:queryHint="Cari Obat / Lab / Radiologi"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -153,7 +159,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="PROBLEM"
+                        android:text="Obat"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -175,7 +181,7 @@
                         android:id="@+id/textView33"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Masalah :"
+                        android:text="Pilih Obat :"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -189,21 +195,21 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 1" />
+                            android:text="Obat 1" />
 
                         <CheckBox
                             android:id="@+id/checkBox2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 2" />
+                            android:text="Obat 2" />
 
                         <CheckBox
                             android:id="@+id/checkBox"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 3" />
+                            android:text="Obat 3" />
 
                     </LinearLayout>
 
@@ -217,21 +223,21 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 4" />
+                            android:text="Obat 4" />
 
                         <CheckBox
                             android:id="@+id/checkBox5"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 5" />
+                            android:text="Obat 5" />
 
                         <CheckBox
                             android:id="@+id/checkBox6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 6" />
+                            android:text="Obat 6" />
 
                     </LinearLayout>
 
@@ -245,21 +251,21 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 7" />
+                            android:text="Obat 7" />
 
                         <CheckBox
                             android:id="@+id/checkBox8"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 8" />
+                            android:text="Obat 8" />
 
                         <CheckBox
                             android:id="@+id/checkBox9"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 9" />
+                            android:text="Obat 9" />
 
                     </LinearLayout>
 
@@ -275,7 +281,120 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="ALERGI"
+                        android:text="LAB"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBlack"
+                        android:orientation="vertical"></LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView350"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pilih Lab :"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="LAB 1" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="LAB 2" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="LAB 3" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="LAB 4" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="LAB 5" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="LAB 6" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="LAB 7" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="LAB 8" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="LAB 9" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Radiologi"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -297,7 +416,7 @@
                         android:id="@+id/textView35"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Alergi :"
+                        android:text="Pilih Radiologi :"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -310,19 +429,19 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 1" />
+                            android:text="Radiologi 1" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 2" />
+                            android:text="Radiologi 2" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 3" />
+                            android:text="Radiologi 3" />
 
                     </LinearLayout>
 
@@ -335,19 +454,19 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 4" />
+                            android:text="Radiologi 4" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 5" />
+                            android:text="Radiologi 5" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 6" />
+                            android:text="Radiologi 6" />
 
                     </LinearLayout>
 
@@ -360,35 +479,35 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 7" />
+                            android:text="Radiologi 7" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 8" />
+                            android:text="Radiologi 8" />
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 9" />
+                            android:text="Radiologi 9" />
 
                     </LinearLayout>
 
                 </LinearLayout>
 
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="VITAL SIGN"
+                        android:text="Other Exam"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -407,190 +526,87 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textView3554"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Tinggi badan :"
+                        android:text="Pilih Other Exam :"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:orientation="horizontal">
 
-                        <EditText
-                            android:id="@+id/editText6"
-                            android:layout_width="50dp"
+                        <CheckBox
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="number" />
+                            android:text="Exam 1" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
+                        <CheckBox
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Cm"
-                            android:textSize="15dp" />
+                            android:text="Exam 2" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Exam 3" />
 
                     </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Berat badan :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:orientation="horizontal">
 
-                        <EditText
-                            android:id="@+id/editText10"
-                            android:layout_width="50dp"
+                        <CheckBox
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="number" />
+                            android:text="Exam 4" />
 
-                        <TextView
-                            android:id="@+id/textView11"
-                            android:layout_width="wrap_content"
+                        <CheckBox
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Kg"
-                            android:textSize="15dp" />
+                            android:text="Exam 5" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Exam 6" />
 
                     </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Tekanan darah :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:orientation="horizontal">
 
-                        <EditText
-                            android:id="@+id/editText12"
-                            android:layout_width="50dp"
+                        <CheckBox
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="number" />
+                            android:text="Exam 7" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
+                        <CheckBox
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="/"
-                            android:textSize="15dp" />
+                            android:text="Exam 8" />
 
-                        <EditText
-                            android:id="@+id/editText7"
-                            android:layout_width="50dp"
+                        <CheckBox
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="number" />
-
-                        <TextView
-                            android:id="@+id/textView16"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="mmHg"
-                            android:textSize="15dp" />
+                            android:text="Exam 9" />
 
                     </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Denyut nadi :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <EditText
-                            android:id="@+id/editText8"
-                            android:layout_width="50dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="number" />
-
-                        <TextView
-                            android:id="@+id/textView12"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="bpm"
-                            android:textSize="15dp" />
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Mata kanan / kiri :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-
-                    <EditText
-                        android:id="@+id/editText9"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ems="10"
-                        android:inputType="text" />
 
                 </LinearLayout>
 
