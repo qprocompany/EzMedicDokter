@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layerPasien.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DetailPasien.class);
+                Intent intent = new Intent(MainActivity.this, PreviousEpisode.class);
                 startActivity(intent);
             }
         });
