@@ -9,9 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetailPreviousEpisode"
+        <activity android:name=".DetailPasien4"
+            android:label="EMR"
+            android:parentActivityName=".DetailPasien3"></activity>
+        <activity android:name=".DetailPasien3"
+            android:label="EMR"
+            android:parentActivityName=".DetailPasien2"/>
+        <activity android:name=".DetailPasien2"
+            android:label="EMR"
+            android:parentActivityName=".DetailPasien"/>
+        <activity
+            android:name=".DetailPreviousEpisode"
             android:label="Detail Riwayat Pasien"
-            android:parentActivityName=".PreviousEpisode"></activity>
+            android:parentActivityName=".PreviousEpisode" />
         <activity
             android:name=".Settings"
             android:label="Pengaturan"
@@ -108,7 +118,6 @@
         <activity
             android:name=".SKP"
             android:label="SKP" />
-
     </application>
 
 </manifest>
