@@ -15,6 +15,12 @@
         <item>8</item>
     </string-array>
 
+    <string-array name="pilihan">
+        <item>--PILIHAN--</item>
+        <item>CONFIRMED</item>
+        <item>SUSPECT</item>
+    </string-array>
+
     <string-array name="obat">
         <item>--PILIH OBAT--</item>
         <item>obat1</item>

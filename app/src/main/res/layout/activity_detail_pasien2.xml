@@ -611,7 +611,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/radiusbutton"
                     android:elevation="5dp"
-                    android:text="Next"
+                    android:text="SELANJUTNYA"
                     android:textColor="@color/colorWhite"
                     android:textSize="15dp" />
             </LinearLayout>

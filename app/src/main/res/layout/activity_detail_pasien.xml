@@ -189,21 +189,24 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 1" />
+                            android:text="problem 1"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:id="@+id/checkBox2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 2" />
+                            android:text="problem 2"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:id="@+id/checkBox"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 3" />
+                            android:text="problem 3"
+                            android:textSize="15dp"/>
 
                     </LinearLayout>
 
@@ -217,21 +220,24 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 4" />
+                            android:text="problem 4"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:id="@+id/checkBox5"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 5" />
+                            android:text="problem 5"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:id="@+id/checkBox6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 6" />
+                            android:text="problem 6"
+                            android:textSize="15dp"/>
 
                     </LinearLayout>
 
@@ -245,21 +251,24 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 7" />
+                            android:text="problem 7"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:id="@+id/checkBox8"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 8" />
+                            android:text="problem 8"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:id="@+id/checkBox9"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="problem 9" />
+                            android:text="problem 9"
+                            android:textSize="15dp"/>
 
                     </LinearLayout>
 
@@ -310,19 +319,22 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 1" />
+                            android:text="alergi 1"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 2" />
+                            android:text="alergi 2"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 3" />
+                            android:text="alergi 3"
+                            android:textSize="15dp"/>
 
                     </LinearLayout>
 
@@ -335,19 +347,22 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 4" />
+                            android:text="alergi 4"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 5" />
+                            android:text="alergi 5"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 6" />
+                            android:text="alergi 6"
+                            android:textSize="15dp"/>
 
                     </LinearLayout>
 
@@ -360,19 +375,22 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 7" />
+                            android:text="alergi 7"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 8" />
+                            android:text="alergi 8"
+                            android:textSize="15dp"/>
 
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="alergi 9" />
+                            android:text="alergi 9"
+                            android:textSize="15dp"/>
 
                     </LinearLayout>
 
@@ -609,7 +627,7 @@
                     android:id="@+id/next"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="Next"
+                    android:text="SELANJUTNYA"
                     android:textSize="15dp"
                     android:textColor="@color/colorWhite"
                     android:background="@drawable/radiusbutton"
