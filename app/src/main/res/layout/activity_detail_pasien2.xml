@@ -153,7 +153,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="PROBLEM"
+                        android:text="ANAMESA"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -169,101 +169,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView33"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Masalah :"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkBox3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 1" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 2" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 3" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkBox4"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 4" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox5"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 5" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox6"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 6" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkBox7"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 7" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox8"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 8" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox9"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="problem 9" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
+                    android:orientation="vertical"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -275,7 +181,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="ALERGI"
+                        android:text="RIWAYAT PENYAKIT SEKARANG"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -297,7 +203,7 @@
                         android:id="@+id/textView35"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Alergi :"
+                        android:text="Onset :"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -308,73 +214,25 @@
 
                         <CheckBox
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:text="alergi 1" />
+                            android:text="Tiba-tiba" />
 
                         <CheckBox
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:text="alergi 2" />
+                            android:text="bertahap" />
 
                         <CheckBox
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:text="alergi 3" />
+                            android:text="Tidak diketahui" />
 
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
 
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 4" />
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 5" />
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 6" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 7" />
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 8" />
-
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="alergi 9" />
-
-                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -383,12 +241,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="VITAL SIGN"
+                        android:text="SISTEM REVIEW"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
