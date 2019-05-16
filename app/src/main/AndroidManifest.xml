@@ -43,7 +43,7 @@
             android:label="Jadwal Praktik" />
         <activity
             android:name=".DetailPasien"
-            android:label="Detail Pasien"
+            android:label="EMR"
             android:parentActivityName=".PreviousEpisode" />
         <activity
             android:name=".UpdateProfile"
