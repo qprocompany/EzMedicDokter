@@ -9,15 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetailPasien4"
+        <activity android:name=".AlergiProblem"
+            android:label="Alergi Dan Problem"
+            android:parentActivityName=".PreviousEpisode">
+        </activity>
+        <activity
+            android:name=".MedicalPathway"
+            android:label="Medical Pathway"
+            android:parentActivityName=".Profile" />
+        <activity
+            android:name=".DetailPasien4"
             android:label="EMR"
-            android:parentActivityName=".DetailPasien3"></activity>
-        <activity android:name=".DetailPasien3"
+            android:parentActivityName=".DetailPasien3" />
+        <activity
+            android:name=".DetailPasien3"
             android:label="EMR"
-            android:parentActivityName=".DetailPasien2"/>
-        <activity android:name=".DetailPasien2"
+            android:parentActivityName=".DetailPasien2" />
+        <activity
+            android:name=".DetailPasien2"
             android:label="EMR"
-            android:parentActivityName=".DetailPasien"/>
+            android:parentActivityName=".DetailPasien" />
         <activity
             android:name=".DetailPreviousEpisode"
             android:label="Detail Riwayat Pasien"

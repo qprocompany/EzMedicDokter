@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -15,7 +16,6 @@ public class Profile extends AppCompatActivity {
 
     TextView layerNama, layerEmail, layerNo;
     ImageView edit1, edit2, edit3, edit4, edit5, delete1, delete2, updateProfile;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +43,8 @@ public class Profile extends AppCompatActivity {
         });
 
 
+
+
     }
 
     @Override
@@ -55,6 +57,10 @@ public class Profile extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
+
+            case R.id.medPath:
+                startActivity(new Intent(this, MedicalPathway.class));
+                return true;
 
             case R.id.resepNav:
                 startActivity(new Intent(this, TemplateResep.class));

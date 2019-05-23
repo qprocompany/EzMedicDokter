@@ -298,7 +298,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="2dp"
                                             android:layout_weight="1"
-                                            android:text="Oktober 2025"
+                                            android:text="Okt 2025"
                                             android:textSize="17dp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -498,7 +498,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="2dp"
                                             android:layout_weight="1"
-                                            android:text="Oktober 2025"
+                                            android:text="Okt 2025"
                                             android:textSize="17dp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -698,7 +698,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="2dp"
                                             android:layout_weight="1"
-                                            android:text="Oktober 2025"
+                                            android:text="Okt 2025"
                                             android:textSize="17dp" />
                                     </LinearLayout>
                                 </LinearLayout>
