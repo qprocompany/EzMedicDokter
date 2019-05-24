@@ -271,8 +271,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
 
 
                 } else if (date.equals("5/22/2019")){
-                    fotoJadwal1.setImageResource(R.drawable.foto7);
-                    namaJadwal1.setText("Andi");
+                    fotoJadwal1.setImageResource(R.drawable.foto4);
+                    namaJadwal1.setText("Bagus");
                     umurJadwal1.setText("20");
                     noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
@@ -362,7 +362,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisH1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien1.setElevation(5);
                     kedatangan1.setText("2");
-                    rate1.setText("5.0");
+                    rate1.setText("-");
                     bintang1.setImageResource(R.drawable.star);
 
                     fotoJadwal2.setImageResource(R.drawable.foto3);
@@ -421,7 +421,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
 
                 }else if (date.equals("5/28/2019")){
                     fotoJadwal1.setImageResource(R.drawable.test);
-                    namaJadwal1.setText("Andi");
+                    namaJadwal1.setText("Nando");
                     umurJadwal1.setText("20");
                     noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
@@ -434,7 +434,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisH1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien1.setElevation(5);
                     kedatangan1.setText("2");
-                    rate1.setText("5.0");
+                    rate1.setText("-");
                     bintang1.setImageResource(R.drawable.star);
 
                     fotoJadwal2.setImageResource(R.drawable.foto7);
@@ -491,7 +491,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     triboxLayout.setVisibility(View.INVISIBLE);
                     buttonReschedule.setVisibility(View.VISIBLE);
 
-                }else if (date.equals("5/29/2019")){
+                }else if (date.equals("5/26/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("20");
@@ -506,7 +506,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     garisH1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien1.setElevation(5);
                     kedatangan1.setText("2");
-                    rate1.setText("5.0");
+                    rate1.setText("-");
                     bintang1.setImageResource(R.drawable.star);
 
                     fotoJadwal2.setImageResource(R.drawable.foto11);
