@@ -23,11 +23,23 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
     CalendarView calendarView;
-    LinearLayout jadwalPasien1, jadwalPasien2,jadwalPasien3, jadwalPasien4, garisH1, garisH2,garisH3, garisH4, garisV1, garisV2, garisV3, garisV4;
-    TextView namaJadwal1, namaJadwal2,namaJadwal3, namaJadwal4, umurJadwal1, umurJadwal2,umurJadwal3, umurJadwal4, genderJadwal1, genderJadwal2,genderJadwal3, genderJadwal4, noJadwal1, noJadwal2,noJadwal3, noJadwal4, thnJadwal1, thnJadwal2, thnJadwal3, thnJadwal4;
-    TextView kedatangan1, kedatangan2,kedatangan3, kedatangan4, rate1, rate2, rate3, rate4;
-    ImageView bintang1, bintang2,bintang3, bintang4;
+    LinearLayout jadwalPasien1, jadwalPasien2, jadwalPasien3, jadwalPasien4;
+    LinearLayout garisH1, garisH2, garisH3, garisH4;
+    TextView namaJadwal1, namaJadwal2,namaJadwal3, namaJadwal4;
+    TextView umurJadwal1, umurJadwal2,umurJadwal3, umurJadwal4;
+    TextView noJadwal1, noJadwal2,noJadwal3, noJadwal4;
+    TextView thnJadwal1, thnJadwal2, thnJadwal3, thnJadwal4;
+    TextView kedatangan1, kedatangan2, kedatangan3, kedatangan4;
+    TextView rate1, rate2, rate3, rate4;
+    ImageView bintang1, bintang2, bintang3, bintang4;
     CircleImageView fotoJadwal1, fotoJadwal2, fotoJadwal3, fotoJadwal4;
+    TextView visitTxt1, visitTxt2, visitTxt3, visitTxt4;
+    TextView tglJadwal1, tglJadwal2, tglJadwal3, tglJadwal4;
+    TextView diagnosaTxt1, diagnosaTxt2, diagnosaTxt3, diagnosaTxt4;
+    TextView isiDiagnosa1, isiDiagnosa2, isiDiagnosa3, isiDiagnosa4;
+    ImageView genderJadwal1, genderJadwal2, genderJadwal3, genderJadwal4;
+    LinearLayout triboxLayout;
+
 
     TextView pasienHadir, pasienBatal, persentase;
 
@@ -35,12 +47,40 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
 
     LinearLayout layerKedatangan;
 
-    Button button;
+    Button buttonReschedule;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jadwal_praktik);
+
+        triboxLayout = (LinearLayout) findViewById(R.id.triboxLayout);
+
+        visitTxt1 = (TextView) findViewById(R.id.visitTxt1);
+        visitTxt2 = (TextView) findViewById(R.id.visitTxt2);
+        visitTxt3 = (TextView) findViewById(R.id.visitTxt3);
+        visitTxt4 = (TextView) findViewById(R.id.visitTxt4);
+
+        tglJadwal1 = (TextView) findViewById(R.id.tglJadwal1);
+        tglJadwal2 = (TextView) findViewById(R.id.tglJadwal2);
+        tglJadwal3 = (TextView) findViewById(R.id.tglJadwal3);
+        tglJadwal4 = (TextView) findViewById(R.id.tglJadwal4);
+
+        diagnosaTxt1 = (TextView) findViewById(R.id.diagnosaTxt1);
+        diagnosaTxt2 = (TextView) findViewById(R.id.diagnosaTxt2);
+        diagnosaTxt3 = (TextView) findViewById(R.id.diagnosaTxt3);
+        diagnosaTxt4 = (TextView) findViewById(R.id.diagnosaTxt4);
+
+        isiDiagnosa1 = (TextView) findViewById(R.id.isiDiagnosa1);
+        isiDiagnosa2 = (TextView) findViewById(R.id.isiDiagnosa2);
+        isiDiagnosa3 = (TextView) findViewById(R.id.isiDiagnosa3);
+        isiDiagnosa4 = (TextView) findViewById(R.id.isiDiagnosa4);
+
+        genderJadwal1 = (ImageView) findViewById(R.id.genderJadwal1);
+        genderJadwal2 = (ImageView) findViewById(R.id.genderJadwal2);
+        genderJadwal3 = (ImageView) findViewById(R.id.genderJadwal3);
+        genderJadwal4 = (ImageView) findViewById(R.id.genderJadwal4);
+
 
         jadwalPasien1 = (LinearLayout) findViewById(R.id.jadwalPasien1);
         jadwalPasien2 = (LinearLayout) findViewById(R.id.jadwalPasien2);
@@ -52,11 +92,6 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
         garisH3 = (LinearLayout) findViewById(R.id.garisH3);
         garisH4 = (LinearLayout) findViewById(R.id.garisH4);
 
-        garisV1 = (LinearLayout) findViewById(R.id.garisV1);
-        garisV2 = (LinearLayout) findViewById(R.id.garisV2);
-        garisV3 = (LinearLayout) findViewById(R.id.garisV3);
-        garisV4 = (LinearLayout) findViewById(R.id.garisV4);
-
         namaJadwal1 = (TextView) findViewById(R.id.namaJadwal1);
         namaJadwal2 = (TextView) findViewById(R.id.namaJadwal2);
         namaJadwal3 = (TextView) findViewById(R.id.namaJadwal3);
@@ -66,11 +101,6 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
         umurJadwal2 = (TextView) findViewById(R.id.umurJadwal2);
         umurJadwal3 = (TextView) findViewById(R.id.umurJadwal3);
         umurJadwal4 = (TextView) findViewById(R.id.umurJadwal4);
-
-        genderJadwal1 = (TextView) findViewById(R.id.genderJadwal1);
-        genderJadwal2 = (TextView) findViewById(R.id.genderJadwal2);
-        genderJadwal3 = (TextView) findViewById(R.id.genderJadwal3);
-        genderJadwal4 = (TextView) findViewById(R.id.genderJadwal4);
 
         noJadwal1 = (TextView) findViewById(R.id.noJadwal1);
         noJadwal2 = (TextView) findViewById(R.id.noJadwal2);
@@ -111,7 +141,14 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
 
         layerKedatangan = (LinearLayout) findViewById(R.id.layerKedatangan);
 
-        button = (Button) findViewById(R.id.button);
+        buttonReschedule = (Button) findViewById(R.id.buttonReschedule);
+        buttonReschedule.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(JadwalPraktik.this, PopReschedule.class);
+                startActivity(intent);
+            }
+        });
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer);
         mToggle = new ActionBarDrawerToggle(this,mDrawerLayout, R.string.open, R.string.close);
@@ -123,36 +160,69 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
         navigationView.setNavigationItemSelectedListener(this);
 
 
+        hadir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(JadwalPraktik.this, DetailPasienHadir.class);
+                startActivity(intent);
+            }
+        });
+
+        batal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(JadwalPraktik.this, DetailPasienBatal.class);
+                startActivity(intent);
+
+            }
+        });
+
+        layerKedatangan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(JadwalPraktik.this, DetailKedatanganPasien.class);
+                startActivity(intent);
+            }
+        });
+
+
         calendarView = (CalendarView) findViewById(R.id.calendarView);
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, final int i, int i1, int i2) {
                 String date = (i1 + 1) + "/" + i2 + "/" + i;
 
-                if(date.equals("5/7/2019")){
+                if(date.equals("5/23/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
-                    umurJadwal1.setText("20");
-                    genderJadwal1.setText("Laki-Laki");
+                    umurJadwal1.setText("22");
                     noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
+                    visitTxt1.setText("Visit :");
+                    tglJadwal1.setText("23 Mei 2019 , 15:00");
+                    diagnosaTxt1.setText("Diagnosa :");
+                    isiDiagnosa1.setText("Sakit Kepala");
+                    genderJadwal1.setImageResource(R.drawable.male);
                     jadwalPasien1.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien1.setElevation(5);
                     kedatangan1.setText("2");
                     rate1.setText("5.0");
                     bintang1.setImageResource(R.drawable.star);
 
+
                     fotoJadwal2.setImageResource(R.drawable.foto3);
                     namaJadwal2.setText("Linda");
                     umurJadwal2.setText("24");
-                    genderJadwal2.setText("Perempuan");
                     noJadwal2.setText("081546464896");
                     thnJadwal2.setText("Thn");
+                    visitTxt2.setText("Visit :");
+                    tglJadwal2.setText("23 Mei 2019 , 15:45");
+                    diagnosaTxt2.setText("Diagnosa :");
+                    isiDiagnosa2.setText("Sakit Kepala");
+                    genderJadwal2.setImageResource(R.drawable.female);
                     jadwalPasien2.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien2.setElevation(5);
                     kedatangan2.setText("1");
                     rate2.setText("4.5");
@@ -161,12 +231,15 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal3.setImageResource(R.drawable.foto4);
                     namaJadwal3.setText("Agus");
                     umurJadwal3.setText("24");
-                    genderJadwal3.setText("Laki-laki");
                     noJadwal3.setText("081546464896");
                     thnJadwal3.setText("Thn");
+                    visitTxt3.setText("Visit :");
+                    tglJadwal3.setText("23 Mei 2019 , 16:15");
+                    diagnosaTxt3.setText("Diagnosa :");
+                    isiDiagnosa3.setText("Sakit Kepala");
+                    genderJadwal3.setImageResource(R.drawable.male);
                     jadwalPasien3.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien3.setElevation(5);
                     kedatangan3.setText("1");
                     rate3.setText("4.5");
@@ -175,12 +248,15 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal4.setImageResource(R.drawable.foto5);
                     namaJadwal4.setText("Supri");
                     umurJadwal4.setText("24");
-                    genderJadwal4.setText("Laki-laki");
                     noJadwal4.setText("081546464896");
                     thnJadwal4.setText("Thn");
+                    visitTxt4.setText("Visit :");
+                    tglJadwal4.setText("23 Mei 2019 , 16:45");
+                    diagnosaTxt4.setText("Diagnosa :");
+                    isiDiagnosa4.setText("Sakit Kepala");
+                    genderJadwal4.setImageResource(R.drawable.male);
                     jadwalPasien4.setBackground(getResources().getDrawable(R.drawable.radiusred));
                     garisH4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien4.setElevation(5);
                     kedatangan4.setText("1");
                     rate4.setText("-");
@@ -190,46 +266,23 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     pasienBatal.setText("1");
                     persentase.setText("75%");
 
-                    button.setText("");
-                    button.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
+                    triboxLayout.setVisibility(View.VISIBLE);
+                    buttonReschedule.setVisibility(View.INVISIBLE);
 
 
-                    hadir.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            Intent intent = new Intent(JadwalPraktik.this, DetailPasienHadir.class);
-                            startActivity(intent);
-                        }
-                    });
-
-                    batal.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            Intent intent = new Intent(JadwalPraktik.this, DetailPasienBatal.class);
-                            startActivity(intent);
-
-                        }
-                    });
-
-                    layerKedatangan.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            Intent intent = new Intent(JadwalPraktik.this, DetailKedatanganPasien.class);
-                            startActivity(intent);
-                        }
-                    });
-
-
-                } else if (date.equals("5/8/2019")){
-                    fotoJadwal1.setImageResource(R.drawable.foto4);
-                    namaJadwal1.setText("Bagus");
-                    umurJadwal1.setText("18");
-                    genderJadwal1.setText("Laki-laki");
-                    noJadwal1.setText("085846962589");
+                } else if (date.equals("5/22/2019")){
+                    fotoJadwal1.setImageResource(R.drawable.foto7);
+                    namaJadwal1.setText("Andi");
+                    umurJadwal1.setText("20");
+                    noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
+                    visitTxt1.setText("Visit :");
+                    tglJadwal1.setText("26 Mei 2019 , 18:00");
+                    diagnosaTxt1.setText("Diagnosa :");
+                    isiDiagnosa1.setText("-");
+                    genderJadwal1.setImageResource(R.drawable.male);
                     jadwalPasien1.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien1.setElevation(5);
                     kedatangan1.setText("2");
                     rate1.setText("5.0");
@@ -238,12 +291,15 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal2.setImageResource(R.drawable.test);
                     namaJadwal2.setText("Didi");
                     umurJadwal2.setText("33");
-                    genderJadwal2.setText("Laki-laki");
                     noJadwal2.setText("081785715886");
                     thnJadwal2.setText("Thn");
+                    visitTxt2.setText("Visit :");
+                    tglJadwal2.setText("26 Mei 2019 , 18:30");
+                    diagnosaTxt2.setText("Diagnosa :");
+                    isiDiagnosa2.setText("-");
+                    genderJadwal2.setImageResource(R.drawable.male);
                     jadwalPasien2.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien2.setElevation(5);
                     kedatangan2.setText("2");
                     rate2.setText("4.0");
@@ -252,12 +308,15 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal3.setImageResource(R.drawable.foto5);
                     namaJadwal3.setText("Supri");
                     umurJadwal3.setText("24");
-                    genderJadwal3.setText("Laki-laki");
                     noJadwal3.setText("081546464896");
                     thnJadwal3.setText("Thn");
+                    visitTxt3.setText("Visit :");
+                    tglJadwal3.setText("26 Mei 2019 , 19:00");
+                    diagnosaTxt3.setText("Diagnosa :");
+                    isiDiagnosa3.setText("-");
+                    genderJadwal3.setImageResource(R.drawable.male);
                     jadwalPasien3.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien3.setElevation(5);
                     kedatangan3.setText("1");
                     rate3.setText("4.5");
@@ -266,48 +325,58 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal4.setImageResource(R.drawable.foto4);
                     namaJadwal4.setText("Agus");
                     umurJadwal4.setText("24");
-                    genderJadwal4.setText("Laki-laki");
                     noJadwal4.setText("081546464896");
                     thnJadwal4.setText("Thn");
+                    visitTxt4.setText("Visit :");
+                    tglJadwal4.setText("26 Mei 2019 , 19:30");
+                    diagnosaTxt4.setText("Diagnosa :");
+                    isiDiagnosa4.setText("-");
+                    genderJadwal4.setImageResource(R.drawable.male);
                     jadwalPasien4.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien4.setElevation(5);
                     kedatangan4.setText("1");
                     rate4.setText("4.5");
                     bintang4.setImageResource(R.drawable.star);
 
-                    button.setText("");
-                    button.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
 
                     pasienHadir.setText("4");
                     pasienBatal.setText("0");
                     persentase.setText("100%");
 
-                }else if(date.equals("5/9/2019")){
+                    triboxLayout.setVisibility(View.VISIBLE);
+                    buttonReschedule.setVisibility(View.INVISIBLE);
+
+                }else if(date.equals("5/27/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("20");
-                    genderJadwal1.setText("Laki-Laki");
                     noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
+                    visitTxt1.setText("Visit :");
+                    tglJadwal1.setText("27 Mei 2019 , 15:45");
+                    diagnosaTxt1.setText("Diagnosa :");
+                    isiDiagnosa1.setText("-");
+                    genderJadwal1.setImageResource(R.drawable.male);
                     jadwalPasien1.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien1.setElevation(5);
                     kedatangan1.setText("2");
-                    rate1.setText("-");
+                    rate1.setText("5.0");
                     bintang1.setImageResource(R.drawable.star);
 
                     fotoJadwal2.setImageResource(R.drawable.foto3);
                     namaJadwal2.setText("Linda");
                     umurJadwal2.setText("24");
-                    genderJadwal2.setText("Perempuan");
                     noJadwal2.setText("081546464896");
                     thnJadwal2.setText("Thn");
+                    visitTxt2.setText("Visit :");
+                    tglJadwal2.setText("27 Mei 2019 , 16:45");
+                    diagnosaTxt2.setText("Diagnosa :");
+                    isiDiagnosa2.setText("-");
+                    genderJadwal2.setImageResource(R.drawable.female);
                     jadwalPasien2.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien2.setElevation(5);
                     kedatangan2.setText("1");
                     rate2.setText("-");
@@ -316,12 +385,15 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal3.setImageResource(R.drawable.foto4);
                     namaJadwal3.setText("Agus");
                     umurJadwal3.setText("24");
-                    genderJadwal3.setText("Laki-laki");
                     noJadwal3.setText("081546464896");
                     thnJadwal3.setText("Thn");
+                    visitTxt3.setText("Visit :");
+                    tglJadwal3.setText("27 Mei 2019 , 17:00");
+                    diagnosaTxt3.setText("Diagnosa :");
+                    isiDiagnosa3.setText("-");
+                    genderJadwal3.setImageResource(R.drawable.male);
                     jadwalPasien3.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien3.setElevation(5);
                     kedatangan3.setText("1");
                     rate3.setText("-");
@@ -330,55 +402,53 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal4.setImageResource(R.drawable.foto5);
                     namaJadwal4.setText("Supri");
                     umurJadwal4.setText("24");
-                    genderJadwal4.setText("Laki-laki");
                     noJadwal4.setText("081546464896");
                     thnJadwal4.setText("Thn");
+                    visitTxt4.setText("Visit :");
+                    tglJadwal4.setText("27 Mei 2019 , 17:45");
+                    diagnosaTxt4.setText("Diagnosa :");
+                    isiDiagnosa4.setText("-");
+                    genderJadwal4.setImageResource(R.drawable.male);
                     jadwalPasien4.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien4.setElevation(5);
                     kedatangan4.setText("1");
                     rate4.setText("-");
                     bintang4.setImageResource(R.drawable.star);
 
-                    button.setText("Reschedule / Batal");
-                    button.setBackground(getResources().getDrawable(R.drawable.radiusbutton));
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            Intent intent = new Intent(JadwalPraktik.this, PopReschedule.class);
-                            startActivity(intent);
-                        }
-                    });
+                    triboxLayout.setVisibility(View.INVISIBLE);
+                    buttonReschedule.setVisibility(View.VISIBLE);
 
-                    pasienHadir.setText(" ");
-                    pasienBatal.setText(" ");
-                    persentase.setText(" ");
-
-                }else if (date.equals("5/10/2019")){
-                    fotoJadwal1.setImageResource(R.drawable.foto6);
-                    namaJadwal1.setText("Milea");
-                    umurJadwal1.setText("18");
-                    genderJadwal1.setText("Perempuan");
-                    noJadwal1.setText("085846962589");
+                }else if (date.equals("5/28/2019")){
+                    fotoJadwal1.setImageResource(R.drawable.test);
+                    namaJadwal1.setText("Andi");
+                    umurJadwal1.setText("20");
+                    noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
+                    visitTxt1.setText("Visit :");
+                    tglJadwal1.setText("28 Mei 2019 , 17:00");
+                    diagnosaTxt1.setText("Diagnosa :");
+                    isiDiagnosa1.setText("-");
+                    genderJadwal1.setImageResource(R.drawable.male);
                     jadwalPasien1.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien1.setElevation(5);
                     kedatangan1.setText("2");
-                    rate1.setText("-");
+                    rate1.setText("5.0");
                     bintang1.setImageResource(R.drawable.star);
 
                     fotoJadwal2.setImageResource(R.drawable.foto7);
                     namaJadwal2.setText("Dilan");
                     umurJadwal2.setText("33");
-                    genderJadwal2.setText("Laki-laki");
                     noJadwal2.setText("081785715886");
                     thnJadwal2.setText("Thn");
+                    visitTxt2.setText("Visit :");
+                    tglJadwal2.setText("28 Mei 2019 , 17:15");
+                    diagnosaTxt2.setText("Diagnosa :");
+                    isiDiagnosa2.setText("-");
+                    genderJadwal2.setImageResource(R.drawable.male);
                     jadwalPasien2.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien2.setElevation(5);
                     kedatangan2.setText("1");
                     rate2.setText("-");
@@ -387,12 +457,15 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal3.setImageResource(R.drawable.foto8);
                     namaJadwal3.setText("Supri");
                     umurJadwal3.setText("24");
-                    genderJadwal3.setText("Laki-laki");
                     noJadwal3.setText("081546464896");
                     thnJadwal3.setText("Thn");
+                    visitTxt3.setText("Visit :");
+                    tglJadwal3.setText("28 Mei 2019 , 17:30");
+                    diagnosaTxt3.setText("Diagnosa :");
+                    isiDiagnosa3.setText("-");
+                    genderJadwal3.setImageResource(R.drawable.male);
                     jadwalPasien3.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien3.setElevation(5);
                     kedatangan3.setText("1");
                     rate2.setText("-");
@@ -401,48 +474,53 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal4.setImageResource(R.drawable.foto9);
                     namaJadwal4.setText("Biyon");
                     umurJadwal4.setText("24");
-                    genderJadwal4.setText("Laki-laki");
                     noJadwal4.setText("081546464896");
                     thnJadwal4.setText("Thn");
+                    visitTxt4.setText("Visit :");
+                    tglJadwal4.setText("28 Mei 2019 , 17:45");
+                    diagnosaTxt4.setText("Diagnosa :");
+                    isiDiagnosa4.setText("-");
+                    genderJadwal4.setImageResource(R.drawable.male);
                     jadwalPasien4.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien4.setElevation(5);
                     kedatangan4.setText("1");
                     rate4.setText("-");
                     bintang4.setImageResource(R.drawable.star);
 
-                    button.setText("Reschedule / Batal");
-                    button.setBackground(getResources().getDrawable(R.drawable.radiusbutton));
+                    triboxLayout.setVisibility(View.INVISIBLE);
+                    buttonReschedule.setVisibility(View.VISIBLE);
 
-                    pasienHadir.setText(" ");
-                    pasienBatal.setText(" ");
-                    persentase.setText(" ");
-
-                }else if (date.equals("5/11/2019")){
-                    fotoJadwal1.setImageResource(R.drawable.foto10);
-                    namaJadwal1.setText("Justin");
-                    umurJadwal1.setText("27");
-                    genderJadwal1.setText("Laki-laki");
-                    noJadwal1.setText("085846962589");
+                }else if (date.equals("5/29/2019")){
+                    fotoJadwal1.setImageResource(R.drawable.foto7);
+                    namaJadwal1.setText("Andi");
+                    umurJadwal1.setText("20");
+                    noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
+                    visitTxt1.setText("Visit :");
+                    tglJadwal1.setText("29 Mei 2019 , 17:15");
+                    diagnosaTxt1.setText("Diagnosa :");
+                    isiDiagnosa1.setText("-");
+                    genderJadwal1.setImageResource(R.drawable.male);
                     jadwalPasien1.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV1.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien1.setElevation(5);
-                    kedatangan1.setText("1");
-                    rate1.setText("-");
+                    kedatangan1.setText("2");
+                    rate1.setText("5.0");
                     bintang1.setImageResource(R.drawable.star);
 
                     fotoJadwal2.setImageResource(R.drawable.foto11);
                     namaJadwal2.setText("Siti");
                     umurJadwal2.setText("17");
-                    genderJadwal2.setText("Perempuan");
                     noJadwal2.setText("081785715886");
                     thnJadwal2.setText("Thn");
+                    visitTxt2.setText("Visit :");
+                    tglJadwal2.setText("29 Mei 2019 , 17:30");
+                    diagnosaTxt2.setText("Diagnosa :");
+                    isiDiagnosa2.setText("-");
+                    genderJadwal2.setImageResource(R.drawable.female);
                     jadwalPasien2.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV2.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien2.setElevation(5);
                     kedatangan2.setText("2");
                     rate2.setText("-");
@@ -451,12 +529,15 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal3.setImageResource(R.drawable.foto12);
                     namaJadwal3.setText("Jessica");
                     umurJadwal3.setText("24");
-                    genderJadwal3.setText("Perempuan");
                     noJadwal3.setText("081546464896");
                     thnJadwal3.setText("Thn");
+                    visitTxt3.setText("Visit :");
+                    tglJadwal3.setText("29 Mei 2019 , 17:45");
+                    diagnosaTxt3.setText("Diagnosa :");
+                    isiDiagnosa3.setText("-");
+                    genderJadwal3.setImageResource(R.drawable.female);
                     jadwalPasien3.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV3.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien3.setElevation(5);
                     kedatangan3.setText("1");
                     rate3.setText("-");
@@ -465,34 +546,35 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal4.setImageResource(R.drawable.foto4);
                     namaJadwal4.setText("Agus");
                     umurJadwal4.setText("24");
-                    genderJadwal4.setText("Laki-laki");
                     noJadwal4.setText("081546464896");
                     thnJadwal4.setText("Thn");
+                    visitTxt4.setText("Visit :");
+                    tglJadwal4.setText("29 Mei 2019 , 18:00");
+                    diagnosaTxt4.setText("Diagnosa :");
+                    isiDiagnosa4.setText("-");
+                    genderJadwal4.setImageResource(R.drawable.male);
                     jadwalPasien4.setBackground(getResources().getDrawable(R.drawable.radiuswhite));
                     garisH4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
-                    garisV4.setBackgroundColor(getResources().getColor(R.color.colorBlack));
                     jadwalPasien4.setElevation(5);
                     kedatangan4.setText("1");
                     rate4.setText("-");
                     bintang4.setImageResource(R.drawable.star);
 
-                    button.setText("Reschedule / Batal");
-                    button.setBackground(getResources().getDrawable(R.drawable.radiusbutton));
-
-                    pasienHadir.setText(" ");
-                    pasienBatal.setText(" ");
-                    persentase.setText(" ");
-
+                    triboxLayout.setVisibility(View.INVISIBLE);
+                    buttonReschedule.setVisibility(View.VISIBLE);
                 }else {
                     fotoJadwal1.setImageResource(R.color.ColorTransparent);
                     namaJadwal1.setText(" ");
                     umurJadwal1.setText(" ");
-                    genderJadwal1.setText(" ");
                     noJadwal1.setText(" ");
                     thnJadwal1.setText(" ");
+                    visitTxt1.setText(" ");
+                    tglJadwal1.setText(" ");
+                    diagnosaTxt1.setText(" ");
+                    isiDiagnosa1.setText(" ");
+                    genderJadwal1.setImageResource(R.color.ColorTransparent);
                     jadwalPasien1.setBackground(null);
                     garisH1.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
-                    garisV1.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
                     jadwalPasien1.setElevation(0);
                     kedatangan1.setText(" ");
                     rate1.setText(" ");
@@ -501,12 +583,15 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal2.setImageResource(R.color.ColorTransparent);
                     namaJadwal2.setText(" ");
                     umurJadwal2.setText(" ");
-                    genderJadwal2.setText(" ");
                     noJadwal2.setText(" ");
                     thnJadwal2.setText(" ");
+                    visitTxt2.setText(" ");
+                    tglJadwal2.setText(" ");
+                    diagnosaTxt2.setText(" ");
+                    isiDiagnosa2.setText(" ");
+                    genderJadwal2.setImageResource(R.color.ColorTransparent);
                     jadwalPasien2.setBackground(null);
                     garisH2.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
-                    garisV2.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
                     jadwalPasien2.setElevation(0);
                     kedatangan2.setText(" ");
                     rate2.setText(" ");
@@ -515,12 +600,15 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal3.setImageResource(R.color.ColorTransparent);
                     namaJadwal3.setText(" ");
                     umurJadwal3.setText(" ");
-                    genderJadwal3.setText(" ");
                     noJadwal3.setText(" ");
                     thnJadwal3.setText(" ");
+                    visitTxt3.setText(" ");
+                    tglJadwal3.setText(" ");
+                    diagnosaTxt3.setText(" ");
+                    isiDiagnosa3.setText(" ");
+                    genderJadwal3.setImageResource(R.color.ColorTransparent);
                     jadwalPasien3.setBackground(null);
                     garisH3.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
-                    garisV3.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
                     jadwalPasien3.setElevation(0);
                     kedatangan3.setText(" ");
                     rate3.setText(" ");
@@ -529,23 +617,22 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     fotoJadwal4.setImageResource(R.color.ColorTransparent);
                     namaJadwal4.setText(" ");
                     umurJadwal4.setText(" ");
-                    genderJadwal4.setText(" ");
                     noJadwal4.setText(" ");
                     thnJadwal4.setText(" ");
+                    visitTxt4.setText(" ");
+                    tglJadwal4.setText(" ");
+                    diagnosaTxt4.setText(" ");
+                    isiDiagnosa4.setText(" ");
+                    genderJadwal4.setImageResource(R.color.ColorTransparent);
                     jadwalPasien4.setBackground(null);
                     garisH4.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
-                    garisV4.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
                     jadwalPasien4.setElevation(0);
                     kedatangan4.setText(" ");
                     rate4.setText(" ");
                     bintang4.setImageResource(R.color.ColorTransparent);
 
-                    button.setText("");
-                    button.setBackgroundColor(getResources().getColor(R.color.ColorTransparent));
-
-                    pasienHadir.setText(" ");
-                    pasienBatal.setText(" ");
-                    persentase.setText(" ");
+                    triboxLayout.setVisibility(View.INVISIBLE);
+                    buttonReschedule.setVisibility(View.INVISIBLE);
 
                 }
             }
