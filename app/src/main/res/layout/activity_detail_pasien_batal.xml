@@ -19,38 +19,41 @@
             <LinearLayout
                 android:id="@+id/jadwalPasien4"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="100dp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginVertical="5dp"
-                android:layout_weight="2"
-                android:orientation="horizontal">
+                android:layout_weight="1.05"
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <LinearLayout
+                    android:id="@+id/layerPasien4"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginHorizontal="5dp"
-                    android:layout_weight="1.1"
-                    android:orientation="vertical">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/fotoJadwal4"
-                        android:layout_width="50dp"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center" />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0.3"
-                    android:orientation="vertical">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.15"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="center_vertical"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_weight="1.6"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/fotoJadwal4"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.4"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -71,13 +74,28 @@
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
+                                android:layout_weight="0.2"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+
+                                <ImageView
+                                    android:id="@+id/genderJadwal4"
+                                    android:layout_width="30dp"
+                                    android:layout_height="20dp"
+                                    android:layout_weight="1" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.8"
                                 android:gravity="center"
                                 android:orientation="horizontal">
 
                                 <TextView
                                     android:id="@+id/umurJadwal4"
-                                    android:layout_width="50dp"
+                                    android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="right"
                                     android:text=" "
@@ -93,6 +111,23 @@
                                     android:text=" "
                                     android:textSize="17dp" />
                             </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:id="@+id/noJadwal4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" "
+                                android:textSize="17dp"
+                                android:textStyle="italic" />
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -107,39 +142,53 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                android:id="@+id/genderJadwal4"
-                                android:layout_width="100dp"
-                                android:layout_height="wrap_content"
-                                android:text=" "
-                                android:textSize="17dp"
-                                android:textStyle="bold" />
-
-                            <LinearLayout
-                                android:id="@+id/garisV4"
-                                android:layout_width="1dp"
-                                android:layout_height="match_parent"
-                                android:orientation="horizontal"></LinearLayout>
-
-                            <TextView
-                                android:id="@+id/noJadwal4"
+                                android:id="@+id/visitTxt4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
                                 android:text=" "
-                                android:textSize="17dp"
-                                android:textStyle="bold" />
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:id="@+id/tglJadwal4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" "
+                                android:textSize="15dp" />
 
                         </LinearLayout>
 
-                    </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
 
+                            <TextView
+                                android:id="@+id/diagnosaTxt4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:text=" "
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:id="@+id/isiDiagnosa4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" "
+                                android:textSize="15dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/layerKedatangan4"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_marginVertical="5dp"
-                    android:layout_weight="1.1"
+                    android:layout_weight="0.85"
                     android:orientation="vertical">
 
                     <TextView
@@ -162,6 +211,8 @@
                             android:id="@+id/bintang4"
                             android:layout_width="17dp"
                             android:layout_height="match_parent"
+                            android:layout_above="@+id/triboxLayout"
+                            android:layout_alignParentEnd="true"
                             android:layout_gravity="center"
                             android:layout_weight="1" />
 
