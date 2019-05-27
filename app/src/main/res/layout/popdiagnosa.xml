@@ -1,5 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorWhite">
 
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:queryHint="cari obat" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBox29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="diagnosa 1"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 2"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 3"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 4"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 5"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 6"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 7"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 8"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 9"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 10"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 11"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 12"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 13"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 14"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 15"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 16"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 17"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 18"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 19"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="diagnosa 20"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlueJeans"
+        android:text="TAMBAH"
+        android:textColor="@color/colorWhite"
+        android:textSize="17dp" />
 </RelativeLayout>
