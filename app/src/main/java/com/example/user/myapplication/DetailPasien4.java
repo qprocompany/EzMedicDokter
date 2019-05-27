@@ -13,7 +13,7 @@ import android.widget.Spinner;
 public class DetailPasien4 extends AppCompatActivity{
     Button next;
 
-    ImageView popDiagnosa;
+    ImageView popDiagnosa, popProsedur;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +35,15 @@ public class DetailPasien4 extends AppCompatActivity{
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(DetailPasien4.this, PopDiagnosa.class);
+                startActivity(intent);
+            }
+        });
+
+        popProsedur= (ImageView) findViewById(R.id.popProsedur);
+        popProsedur.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DetailPasien4.this, PopProsedur.class);
                 startActivity(intent);
             }
         });

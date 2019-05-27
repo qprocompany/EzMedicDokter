@@ -143,6 +143,9 @@
             android:name=".PopDiagnosa"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
+            android:name=".PopProsedur"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
             android:name=".HistoryPasienTudei"
             android:label="Histori Pasien" />
         <activity
