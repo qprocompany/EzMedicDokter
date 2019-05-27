@@ -122,6 +122,27 @@
             android:name=".PopReschedule"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
+            android:name=".PopProblem"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopAlergi"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopObat"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopLab"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopRadiologi"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopOtherExam"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopDiagnosa"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
             android:name=".HistoryPasienTudei"
             android:label="Histori Pasien" />
         <activity

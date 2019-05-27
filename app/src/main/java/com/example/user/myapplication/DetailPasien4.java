@@ -7,11 +7,14 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 public class DetailPasien4 extends AppCompatActivity{
     Button next;
-    Spinner spinnerDiagnosa, spinnerPilihan;
+
+    ImageView popDiagnosa;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +29,15 @@ public class DetailPasien4 extends AppCompatActivity{
             }
         });
 
+
+        popDiagnosa= (ImageView) findViewById(R.id.popDiagnosa);
+        popDiagnosa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DetailPasien4.this, PopDiagnosa.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
