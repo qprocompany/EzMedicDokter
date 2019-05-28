@@ -150,12 +150,34 @@
                     android:layout_marginTop="5dp"
                     android:orientation="vertical">
 
-                    <TextView
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="ANAMESA"
-                        android:textSize="20dp"
-                        android:textStyle="bold" />
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ANAMESA"
+                            android:textSize="20dp"
+                            android:layout_weight="0.1"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="0.9">
+                            <ImageView
+                                android:id="@+id/popAnamesa"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/plus"
+                                android:layout_gravity="right"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -176,57 +198,39 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <Button
+                        <Spinner
+                            android:id="@+id/spinnerAnamesa"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:background="@drawable/radiusbutton"
-                            android:text="Button 1"
-                            android:textColor="@color/colorWhite"
-                            android:textSize="15dp"
-                            android:layout_margin="5dp"/>
-
-                        <Button
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:background="@drawable/radiusbutton"
-                            android:text="Button 2"
-                            android:textColor="@color/colorWhite"
-                            android:textSize="15dp"
-                            android:layout_margin="5dp"/>
-
-                        <Button
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:background="@drawable/radiusbutton"
-                            android:text="Button 3"
-                            android:textColor="@color/colorWhite"
-                            android:textSize="15dp"
-                            android:layout_margin="5dp"/>
-
-                        <Button
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:background="@drawable/radiusbutton"
-                            android:text="Button 4"
-                            android:textColor="@color/colorWhite"
-                            android:textSize="15dp"
-                            android:layout_margin="5dp"/>
-
+                            android:layout_margin="5dp"
+                            android:layout_weight="1" />
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:layout_margin="5dp"
-                        android:orientation="vertical"
                         android:background="@drawable/radiuswhite"
-                        android:elevation="5dp">
+                        android:elevation="5dp"
+                        android:orientation="vertical">
 
 
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/button13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/radiusbutton"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="17dp"
+                            android:text="CLEAR"
+                            android:layout_gravity="right"/>
                     </LinearLayout>
 
                 </LinearLayout>

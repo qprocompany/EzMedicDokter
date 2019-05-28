@@ -3,16 +3,12 @@
     <string name="open">Open</string>
     <string name="close">Close</string>
 
-    <string-array name="diagnosa">
-        <item>--PILIH DIAGNOSA--</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
+    <string-array name="anamesa">
+        <item>--PILIH TEMPLATE ANAMESA--</item>
+        <item>TEMPLATE 1</item>
+        <item>TEMPLATE 2</item>
+        <item>TEMPLATE 3</item>
+        <item>TEMPLATE 4</item>
     </string-array>
 
     <string-array name="pilihan">

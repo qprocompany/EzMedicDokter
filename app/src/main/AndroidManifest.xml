@@ -146,6 +146,12 @@
             android:name=".PopProsedur"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
+            android:name=".PopAnamesa"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PopMedicalPathway"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
             android:name=".HistoryPasienTudei"
             android:label="Histori Pasien" />
         <activity

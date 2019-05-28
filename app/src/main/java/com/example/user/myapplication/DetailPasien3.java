@@ -10,7 +10,7 @@ import android.widget.ImageView;
 public class DetailPasien3 extends AppCompatActivity {
     Button next;
 
-    ImageView popObat, popLab, popRad, popOther;
+    ImageView popObat, popLab, popRad, popOther, popMedical;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +59,15 @@ public class DetailPasien3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(DetailPasien3.this, PopOtherExam.class);
+                startActivity(intent);
+            }
+        });
+
+        popMedical= (ImageView) findViewById(R.id.popMedical);
+        popMedical.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DetailPasien3.this, PopMedicalPathway.class);
                 startActivity(intent);
             }
         });
