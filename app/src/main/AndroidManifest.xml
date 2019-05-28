@@ -152,6 +152,9 @@
             android:name=".PopMedicalPathway"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
+            android:name=".PopEditMedicalPathway"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
             android:name=".HistoryPasienTudei"
             android:label="Histori Pasien" />
         <activity

@@ -60,7 +60,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/colorWhite"
-                        android:queryHint="Cari template lab" />
+                        android:queryHint="Cari medical pathway" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -143,14 +143,14 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/editLab1"
+                                android:id="@+id/editMed1"
                                 android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
                                 app:srcCompat="@drawable/edit" />
 
                             <ImageView
-                                android:id="@+id/deleteLab1"
+                                android:id="@+id/deleteMed1"
                                 android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
@@ -245,14 +245,14 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/editLab2"
+                                android:id="@+id/editMed2"
                                 android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
                                 app:srcCompat="@drawable/edit" />
 
                             <ImageView
-                                android:id="@+id/deleteLab2"
+                                android:id="@+id/deleteMed2"
                                 android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
