@@ -14,7 +14,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class PreviousEpisode extends AppCompatActivity {
 
     Button addEpisodeBtn;
-    LinearLayout episode1;
+    LinearLayout episode1, episode2;
     ImageView alergi;
 
     @Override
@@ -27,6 +27,15 @@ public class PreviousEpisode extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(PreviousEpisode.this, DetailPreviousEpisode.class);
+                startActivity(intent);
+            }
+        });
+
+        episode2 = (LinearLayout) findViewById(R.id.episode2);
+        episode2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PreviousEpisode.this, DetailPreviousEpisode2.class);
                 startActivity(intent);
             }
         });
