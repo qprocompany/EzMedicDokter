@@ -213,7 +213,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:text="10 Oktober 2018"
+                        android:text="1 April 2019"
                         android:textSize="15dp" />
 
                     <LinearLayout
@@ -249,7 +249,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
-                                    android:text="173"
+                                    android:text="175"
                                     android:textSize="15dp" />
 
 
@@ -325,7 +325,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
-                                    android:text="99"
+                                    android:text="70"
                                     android:textSize="15dp" />
 
 
@@ -349,7 +349,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="5dp"
-                                android:text="Panas Tinggi "
+                                android:text="Demam Tinggi"
                                 android:textSize="17dp" />
                         </LinearLayout>
 

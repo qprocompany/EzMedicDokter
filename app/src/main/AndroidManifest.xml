@@ -9,9 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetailPreviousEpisode2"
-            android:label="Detail Riwayat Pasien"
-            android:parentActivityName=".PreviousEpisode"></activity>
         <activity android:name=".JadwalPraktik" />
         <activity
             android:name=".AlergiProblem"
