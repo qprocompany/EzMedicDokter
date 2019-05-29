@@ -23,14 +23,14 @@
                 android:orientation="vertical">
 
                 <CheckBox
-                    android:id="@+id/checkBox29"
+                    android:id="@+id/box1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Batuk pilek"
                     android:textSize="17dp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox28"
+                    android:id="@+id/box2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -38,7 +38,7 @@
                     android:textSize="17dp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox27"
+                    android:id="@+id/box3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -46,7 +46,7 @@
                     android:textSize="17dp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox26"
+                    android:id="@+id/box4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -54,6 +54,7 @@
                     android:textSize="17dp" />
 
                 <CheckBox
+                    android:id="@+id/box5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -72,7 +73,7 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/tambah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

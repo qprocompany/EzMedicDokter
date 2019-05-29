@@ -7,15 +7,19 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class DetailPasien2 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
-    Button next;
+    Button next , clear;
 
     ImageView popAnamesa;
 
     Spinner spinnerAnamesa;
+
+    EditText anamesa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +45,18 @@ public class DetailPasien2 extends AppCompatActivity implements AdapterView.OnIt
             }
         });
 
+        Intent intent = getIntent();
+        anamesa =(EditText) findViewById(R.id.anamesa);
+        String txt_put =intent.getStringExtra("KEY");
+        anamesa.setText(txt_put);
 
+        clear = (Button) findViewById(R.id.clear);
+        clear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                anamesa.setText(" ");
+            }
+        });
 
     }
 
