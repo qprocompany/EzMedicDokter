@@ -91,7 +91,7 @@
                                 android:id="@+id/namaResep1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Obat Panas"
+                                android:text="Demam"
                                 android:textSize="17dp"
                                 android:textStyle="bold" />
 
@@ -112,7 +112,7 @@
                                     android:id="@+id/textView38"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Panadol 100mg"
+                                    android:text="Paracetamol 100mg"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -134,7 +134,7 @@
                                     android:id="@+id/textView39"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="..."
+                                    android:text="S 3dd 1.00 CAPLET"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -193,7 +193,7 @@
                                 android:id="@+id/namaResep2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Obat Panas"
+                                android:text="Radang Tenggorokan"
                                 android:textSize="17dp"
                                 android:textStyle="bold" />
 
@@ -214,7 +214,7 @@
                                     android:id="@+id/textView40"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Panadol 100mg"
+                                    android:text="Amoxicillin 100mg"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -237,7 +237,7 @@
                                     android:id="@+id/textView41"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="..."
+                                    android:text="S 3dd 2 CAPLET"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
