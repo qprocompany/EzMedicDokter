@@ -29,11 +29,32 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TEMPLATE"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBlack"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
+
                 <CheckBox
                     android:id="@+id/checkBox29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="radiologi 1"
+                    android:text="Neuroradiologi"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -41,31 +62,46 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 2"
+                    android:text="Facial Bones and Mammography"
                     android:textSize="17dp" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Extremity and Articulation System"
+                    android:textSize="17dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RADIOLOGI"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBlack"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
+
 
                 <CheckBox
                     android:id="@+id/checkBox27"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 3"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox26"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="radiologi 4"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox25"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="radiologi 5"
+                    android:text="Rontgen Thorax"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -73,15 +109,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 6"
+                    android:text="Rontgen Panoramic"
                     android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="CT Scan - Brain"
+                    android:textSize="17dp" />
+
+
 
                 <CheckBox
                     android:id="@+id/checkBox23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 7"
+                    android:text="CT Scan - Orbits"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -89,7 +135,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 8"
+                    android:text="CT Scan - Facial Bones"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="MRI - Foot Dextra"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -97,7 +151,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 9"
+                    android:text="MRI - Brain"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -105,7 +159,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 10"
+                    android:text="MRI - Orbits"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -113,7 +167,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 11"
+                    android:text="MRI - Nasopharynx"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -121,7 +175,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 12"
+                    android:text="MRI - Paranasal Sinuses"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -129,7 +183,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 13"
+                    android:text="MRI - Neck"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -137,7 +191,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 14"
+                    android:text="MRI - Chest"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -145,48 +199,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="radiologi 15"
+                    android:text="MRI - Cardiac Function"
                     android:textSize="17dp" />
 
-                <CheckBox
-                    android:id="@+id/checkBox7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="radiologi 16"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="radiologi 17"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="radiologi 18"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="radiologi 19"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="radiologi 20"
-                    android:textSize="17dp" />
 
             </LinearLayout>
 

@@ -11,10 +11,13 @@
         <item>TEMPLATE 4</item>
     </string-array>
 
-    <string-array name="pilihan">
-        <item>--PILIHAN--</item>
-        <item>CONFIRMED</item>
-        <item>SUSPECT</item>
+    <string-array name="refer">
+        <item>--PILIH--</item>
+        <item>External Hospital</item>
+        <item>Internal Hospital</item>
+        <item>Non Medical</item>
+        <item>Other Healthcare</item>
+        <item>Physician</item>
     </string-array>
 
     <string-array name="obat">

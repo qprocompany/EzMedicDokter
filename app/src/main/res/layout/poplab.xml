@@ -29,11 +29,33 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TEMPLATE"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBlack"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
+
                 <CheckBox
                     android:id="@+id/checkBox29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="lab 1"
+                    android:text="Lipit Panel"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -41,15 +63,44 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 2"
+                    android:text="Diabetes"
                     android:textSize="17dp" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Jantung"
+                    android:textSize="17dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="LABORATORI"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBlack"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
 
                 <CheckBox
                     android:id="@+id/checkBox27"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 3"
+                    android:text="Hematologi lengkap"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -57,7 +108,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 4"
+                    android:text="Hematologi lengkap + Retik"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -65,7 +116,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 5"
+                    android:text="Kolesterol Total"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -73,7 +124,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 6"
+                    android:text="Kolesterol LDL"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -81,7 +132,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 7"
+                    android:text="Kolesterol HDL"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -89,7 +140,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 8"
+                    android:text="Trigilserida"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -97,7 +148,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 9"
+                    android:text="LDH"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -105,7 +156,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 10"
+                    android:text="CKMB"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -113,7 +164,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 11"
+                    android:text="Troponin I"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -121,7 +172,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 12"
+                    android:text="Glukosa Puasa"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -129,7 +180,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 13"
+                    android:text="Glukosa 2 Jam PP"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -137,7 +188,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 14"
+                    android:text="Glukosa sewaktu"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -145,7 +196,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 15"
+                    android:text="HbA1C"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -153,7 +204,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 16"
+                    android:text="TSH"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -161,7 +212,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 17"
+                    android:text="Free T4"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -169,7 +220,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 18"
+                    android:text="T3"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -177,16 +228,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="lab 19"
+                    android:text="T4"
                     android:textSize="17dp" />
 
-                <CheckBox
-                    android:id="@+id/checkBox2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="lab 20"
-                    android:textSize="17dp" />
 
             </LinearLayout>
 

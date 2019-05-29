@@ -336,21 +336,21 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Rujuk ke dokter :"
+                        android:text="Refer Type :"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
-                    <EditText
-                        android:id="@+id/editText11"
+                    <Spinner
+                        android:id="@+id/spinnerRefer"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:ems="10"
-                        android:inputType="text" />
+                        android:layout_margin="5dp"
+                        android:layout_weight="1" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Di Rumah Sakit / Klinik :"
+                        android:text="Refer Healthcare Name :"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -360,6 +360,39 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="text" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Refer Name :"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="text" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Refer Specialty :"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="text" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Required Reply"
+                        android:textSize="17dp"/>
                 </LinearLayout>
 
             </LinearLayout>

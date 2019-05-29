@@ -35,9 +35,10 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBox29"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="diagnosa 1"
+                        android:text="[A00] Cholera"
                         android:textSize="17dp" />
 
                     <RadioGroup
@@ -70,10 +71,12 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBox28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="diagnosa 2"
-                        android:textSize="17dp" />
+                        android:text="[A01] Typhoid"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"/>
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -105,10 +108,12 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBox27"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="diagnosa 3"
-                        android:textSize="17dp" />
+                        android:text="[A02] Salmonella infections"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"/>
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -140,10 +145,12 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBox26"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="diagnosa 4"
-                        android:textSize="17dp" />
+                        android:text="[A04] Bacterial intestinal infections"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"/>
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -175,10 +182,12 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBox25"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="diagnosa 5"
-                        android:textSize="17dp" />
+                        android:text="[A05] Bacterial foodborne intoxications"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"/>
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -210,10 +219,12 @@
                     android:orientation="vertical">
 
                     <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="diagnosa 6"
-                        android:textSize="17dp" />
+                    android:id="@+id/checkBox24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[A06] Amoebiasis"
+                    android:textSize="17dp"
+                    android:layout_marginTop="5dp"/>
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -245,10 +256,12 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBox23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="diagnosa 7"
-                        android:textSize="17dp" />
+                        android:text="[A07] Other protozoal intestinal diseases"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"/>
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -280,10 +293,12 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBox22"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="diagnosa 8"
-                        android:textSize="17dp" />
+                        android:text="[A08] Viral and other specified intestinal infections"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"/>
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -315,10 +330,12 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBox21"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="diagnosa 9"
-                        android:textSize="17dp" />
+                        android:text="[A09] Diarhoea and Gastroenteritis"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"/>
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -350,10 +367,12 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBox20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="diagnosa 10"
-                        android:textSize="17dp" />
+                        android:text="[A15] Resoiratory tuberculosis"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"/>
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -385,10 +404,12 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBox19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="diagnosa 11"
-                        android:textSize="17dp" />
+                        android:text="[A17] Tuberculosis of nervous system"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"/>
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -420,10 +441,12 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBox11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="diagnosa 12"
-                        android:textSize="17dp" />
+                        android:text="[A18] Tuberculosis of other organs"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"/>
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -449,285 +472,6 @@
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="diagnosa 13"
-                        android:textSize="17dp" />
-
-                    <RadioGroup
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginHorizontal="20dp">
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Confirmed"
-                            android:textSize="17dp"/>
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Suspect"
-                            android:textSize="17dp"/>
-                    </RadioGroup>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="diagnosa 14"
-                        android:textSize="17dp" />
-
-                    <RadioGroup
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginHorizontal="20dp">
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Confirmed"
-                            android:textSize="17dp"/>
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Suspect"
-                            android:textSize="17dp"/>
-                    </RadioGroup>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="diagnosa 15"
-                        android:textSize="17dp" />
-
-                    <RadioGroup
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginHorizontal="20dp">
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Confirmed"
-                            android:textSize="17dp"/>
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Suspect"
-                            android:textSize="17dp"/>
-                    </RadioGroup>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="diagnosa 16"
-                        android:textSize="17dp" />
-
-                    <RadioGroup
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginHorizontal="20dp">
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Confirmed"
-                            android:textSize="17dp"/>
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Suspect"
-                            android:textSize="17dp"/>
-                    </RadioGroup>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="diagnosa 17"
-                        android:textSize="17dp" />
-
-                    <RadioGroup
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginHorizontal="20dp">
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Confirmed"
-                            android:textSize="17dp"/>
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Suspect"
-                            android:textSize="17dp"/>
-                    </RadioGroup>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="diagnosa 18"
-                        android:textSize="17dp" />
-
-                    <RadioGroup
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginHorizontal="20dp">
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Confirmed"
-                            android:textSize="17dp"/>
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Suspect"
-                            android:textSize="17dp"/>
-                    </RadioGroup>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="diagnosa 19"
-                        android:textSize="17dp" />
-
-                    <RadioGroup
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginHorizontal="20dp">
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Confirmed"
-                            android:textSize="17dp"/>
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Suspect"
-                            android:textSize="17dp"/>
-                    </RadioGroup>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="diagnosa 20"
-                        android:textSize="17dp" />
-
-                    <RadioGroup
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginHorizontal="20dp">
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Confirmed"
-                            android:textSize="17dp"/>
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Suspect"
-                            android:textSize="17dp"/>
-                    </RadioGroup>
-
-
-                </LinearLayout>
 
             </LinearLayout>
 

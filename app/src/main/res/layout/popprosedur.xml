@@ -33,7 +33,7 @@
                     android:id="@+id/checkBox29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="prosedur 1"
+                    android:text="[00.0] Therapeutic ultrasonic"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -41,7 +41,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="prosedur 2"
+                    android:text="[00.1] Pharamaceuticals"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -49,7 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="prosedur 3"
+                    android:text="[00.2] Intravascular imaging of blood vessels"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -57,7 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="prosedur 4"
+                    android:text="[00.3] Computer assisted surgery"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -65,7 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="prosedur 5"
+                    android:text="[00.4] Adjunct Vascular system procedures"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -73,7 +73,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="prosedur 6"
+                    android:text="[00.5] Other cardiovascular procedures"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -81,7 +81,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="prosedur 7"
+                    android:text="[00.6] Procedures on blood vessels"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -89,7 +89,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="prosedur 8"
+                    android:text="[00.7] Other hip procedures"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -97,7 +97,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="prosedur 9"
+                    android:text="[00.8] Other knee and hip procedures"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -105,7 +105,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="prosedur 10"
+                    android:text="[00.9] Other procedures and interventions"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -113,7 +113,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="prosedur 11"
+                    android:text="[01.0] Cranial puncture"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -121,72 +121,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="prosedur 12"
+                    android:text="[01.1] Diagnostic procedures on skull, brain and cerebral meniges"
                     android:textSize="17dp" />
 
-                <CheckBox
-                    android:id="@+id/checkBox10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="prosedur 13"
-                    android:textSize="17dp" />
 
-                <CheckBox
-                    android:id="@+id/checkBox9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="prosedur 14"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="prosedur 15"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="prosedur 16"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="prosedur 17"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="prosedur 18"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="prosedur 19"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="prosedur 20"
-                    android:textSize="17dp" />
 
             </LinearLayout>
 

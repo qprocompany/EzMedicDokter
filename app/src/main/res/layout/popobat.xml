@@ -29,11 +29,33 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TEMPLATE"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBlack"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
+
                 <CheckBox
                     android:id="@+id/checkBox29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="obat 1"
+                    android:text="Obat Demam"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -41,15 +63,53 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 2"
+                    android:text="Obat Radang Tenggorokan"
                     android:textSize="17dp" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Obat kembung"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Obat Batuk pilek"
+                    android:textSize="17dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="OBAT"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBlack"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
+
 
                 <CheckBox
                     android:id="@+id/checkBox27"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 3"
+                    android:text="Abbotic filmtab 500 mg"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -57,7 +117,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 4"
+                    android:text="Amoxicillin 125 mg Dry Syr"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -65,7 +125,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 5"
+                    android:text="Acpulsif 5 tab 5 mg"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -73,7 +133,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 6"
+                    android:text="Vestein cap 300 mg"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -81,7 +141,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 7"
+                    android:text="Nevox XR tab 500 mg"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -89,7 +149,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 8"
+                    android:text="Paracetamol 100mg"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -97,7 +157,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 9"
+                    android:text="Celestamine tab"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -105,88 +165,30 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 10"
+                    android:text="Actifed Plus Expectorant syr 60 ml"
                     android:textSize="17dp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 11"
+                    android:text="Actos tab 35 mg"
                     android:textSize="17dp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 12"
+                    android:text="Actos tab 15 mg"
                     android:textSize="17dp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="obat 13"
+                    android:text="Actos tab 30 mg"
                     android:textSize="17dp" />
 
-                <CheckBox
-                    android:id="@+id/checkBox9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="obat 14"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="obat 15"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="obat 16"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="obat 17"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="obat 18"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="obat 19"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="obat 20"
-                    android:textSize="17dp" />
 
             </LinearLayout>
 

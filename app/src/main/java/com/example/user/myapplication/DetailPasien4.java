@@ -10,10 +10,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
-public class DetailPasien4 extends AppCompatActivity{
+public class DetailPasien4 extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
     Button next;
 
     ImageView popDiagnosa, popProsedur;
+
+    Spinner spinnerRefer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +50,21 @@ public class DetailPasien4 extends AppCompatActivity{
             }
         });
 
+        spinnerRefer = (Spinner) findViewById(R.id.spinnerRefer);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.refer, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerRefer.setAdapter(adapter);
+
     }
 
+    @Override
+    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
+
+    }
 }

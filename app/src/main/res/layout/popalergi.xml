@@ -33,7 +33,7 @@
                     android:id="@+id/checkBox29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="alergi 1"
+                    android:text="Amoxicillin"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -41,7 +41,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="alergi 2"
+                    android:text="Dexketoprofen"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -49,7 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="alergi 3"
+                    android:text="Metamizole"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -57,7 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="alergi 4"
+                    android:text="Alergi terhadap binatang"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -65,7 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="alergi 5"
+                    android:text="Alergi terhadap kosmetik"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -73,7 +73,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="alergi 6"
+                    android:text="Alergi terhadap detergen"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -81,7 +81,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="alergi 7"
+                    android:text="Alergi terhadap Debu"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -89,7 +89,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="alergi 8"
+                    android:text="Alergi terhadap fungi"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -97,7 +97,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="alergi 9"
+                    android:text="Alergi terhadap tanaman"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -105,88 +105,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="alergi 10"
+                    android:text="Alergi terhadap material"
                     android:textSize="17dp" />
 
-                <CheckBox
-                    android:id="@+id/checkBox19"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="alergi 11"
-                    android:textSize="17dp" />
 
-                <CheckBox
-                    android:id="@+id/checkBox11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="alergi 12"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="alergi 13"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="alergi 14"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="alergi 15"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="alergi 16"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="alergi 17"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="alergi 18"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="alergi 19"
-                    android:textSize="17dp" />
-
-                <CheckBox
-                    android:id="@+id/checkBox2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="alergi 20"
-                    android:textSize="17dp" />
 
             </LinearLayout>
 
