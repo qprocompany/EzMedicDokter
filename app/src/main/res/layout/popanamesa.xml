@@ -26,7 +26,7 @@
                     android:id="@+id/checkBox29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ANAMESA 1"
+                    android:text="Batuk pilek"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -34,7 +34,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="ANAMESA 2"
+                    android:text="Bleeding gums"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -42,7 +42,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="ANAMESA 3"
+                    android:text="Bleeding on gentle"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -50,7 +50,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="ANAMESA 4"
+                    android:text="Gum Disease"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="SOAP"
                     android:textSize="17dp" />
 
 

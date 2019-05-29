@@ -42,11 +42,6 @@ public class DetailPasien2 extends AppCompatActivity implements AdapterView.OnIt
         });
 
 
-        spinnerAnamesa = (Spinner) findViewById(R.id.spinnerAnamesa);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.anamesa, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinnerAnamesa.setAdapter(adapter);
 
     }
 
