@@ -9,7 +9,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_above="@+id/addTemplateRadiologi">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -91,7 +92,7 @@
                                 android:id="@+id/namaRadio1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Radiologi 1"
+                                android:text="Jantung"
                                 android:textSize="17dp"
                                 android:textStyle="bold" />
 
@@ -101,7 +102,6 @@
                                 android:orientation="horizontal">
 
                                 <TextView
-                                    android:id="@+id/textView"
                                     android:layout_width="30dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginRight="5dp"
@@ -109,10 +109,9 @@
                                     android:textSize="15dp" />
 
                                 <TextView
-                                    android:id="@+id/textView38"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Radiologi"
+                                    android:text="Echocardiogram"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -123,18 +122,37 @@
                                 android:orientation="horizontal">
 
                                 <TextView
-                                    android:id="@+id/textView1"
                                     android:layout_width="30dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginRight="5dp"
-                                    android:text=" "
+                                    android:text="Rd/"
                                     android:textSize="15dp" />
 
                                 <TextView
                                     android:id="@+id/textView40"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="..."
+                                    android:text="Elektrokardiogram"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text="Rd/"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="CT Scan jantung"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -193,7 +211,7 @@
                                 android:id="@+id/namaRadio2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Radiologi 2"
+                                android:text="Paru Paru"
                                 android:textSize="17dp"
                                 android:textStyle="bold" />
 
@@ -207,35 +225,14 @@
                                     android:layout_width="30dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginRight="5dp"
-                                    android:text="R/"
+                                    android:text="Rd/"
                                     android:textSize="15dp" />
 
                                 <TextView
                                     android:id="@+id/textView39"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Radiologi"
-                                    android:textSize="15dp" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="horizontal">
-
-                                <TextView
-                                    android:layout_width="30dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginRight="5dp"
-                                    android:text=" "
-                                    android:textSize="15dp" />
-
-                                <TextView
-                                    android:id="@+id/textView41"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="..."
+                                    android:text="Rontgen Paru-Paru"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -265,6 +262,85 @@
                     </LinearLayout>
 
                 </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layerRadio3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="@drawable/radiuswhite"
+                    android:elevation="5dp"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/namaRadio3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Stroke"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text="Rd/"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="CT Scan Kepala"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/editRadi3"
+                                android:layout_width="25dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/edit" />
+
+                            <ImageView
+                                android:id="@+id/deleteRadio3"
+                                android:layout_width="25dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/delete" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
             </LinearLayout>
 
         </LinearLayout>
@@ -273,6 +349,7 @@
     </ScrollView>
 
     <LinearLayout
+        android:id="@+id/addTemplateRadiologi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

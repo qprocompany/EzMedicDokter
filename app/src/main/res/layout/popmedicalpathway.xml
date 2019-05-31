@@ -63,7 +63,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Demam Reumatik Akut dan Penyakit Jantung Reumatik"
+                    android:text="Demam Reumatik Akut"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -105,7 +105,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Brokiektasis"
+                    android:text="Bronkiektasis"
                     android:textSize="17dp" />
 
 

@@ -54,7 +54,7 @@
                     android:id="@+id/checkBox29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Neuroradiologi"
+                    android:text="Jantung"
                     android:textSize="17dp" />
 
                 <CheckBox
@@ -62,14 +62,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Facial Bones and Mammography"
+                    android:text="Paru - Paru"
                     android:textSize="17dp" />
 
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Extremity and Articulation System"
+                    android:text="Stroke"
                     android:textSize="17dp" />
 
                 <LinearLayout

@@ -167,7 +167,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
             public void onSelectedDayChange(@NonNull CalendarView calendarView, final int i, int i1, int i2) {
                 String date = (i1 + 1) + "/" + i2 + "/" + i;
 
-                if(date.equals("5/22/2019")){
+                if(date.equals("5/29/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("22");
@@ -270,7 +270,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     buttonReschedule.setVisibility(View.INVISIBLE);
 
 
-                } else if (date.equals("5/23/2019")){
+                } else if (date.equals("5/30/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto4);
                     namaJadwal1.setText("Bagus");
                     umurJadwal1.setText("20");
@@ -347,7 +347,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     triboxLayout.setVisibility(View.VISIBLE);
                     buttonReschedule.setVisibility(View.INVISIBLE);
 
-                }else if(date.equals("5/24/2019")){
+                }else if(date.equals("5/31/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("20");
@@ -419,7 +419,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     triboxLayout.setVisibility(View.INVISIBLE);
                     buttonReschedule.setVisibility(View.VISIBLE);
 
-                }else if (date.equals("5/25/2019")){
+                }else if (date.equals("6/1/2019")){
                     fotoJadwal1.setImageResource(R.drawable.test);
                     namaJadwal1.setText("Nando");
                     umurJadwal1.setText("20");
@@ -491,7 +491,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     triboxLayout.setVisibility(View.INVISIBLE);
                     buttonReschedule.setVisibility(View.VISIBLE);
 
-                }else if (date.equals("5/26/2019")){
+                }else if (date.equals("6/2/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("20");

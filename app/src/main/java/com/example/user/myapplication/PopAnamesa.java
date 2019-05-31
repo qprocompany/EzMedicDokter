@@ -33,7 +33,7 @@ public class PopAnamesa extends Activity {
             @Override
             public void onClick(View view) {
                     Intent intent =new  Intent(PopAnamesa.this, DetailPasien2.class);
-                    intent.putExtra("KEY", "Batuk berdahark sejak ... Hari lalu dan tenggorokan berasa sakit disertai demam");
+                    intent.putExtra("KEY", "Batuk berdahak sejak ... Hari lalu dan tenggorokan berasa sakit disertai demam");
                     startActivity(intent);
             }
         });

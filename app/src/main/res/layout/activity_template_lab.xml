@@ -9,7 +9,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_above="@+id/addTemplateLab">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -91,7 +92,7 @@
                                 android:id="@+id/namaLab1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Lab 1"
+                                android:text="Lipit Panel"
                                 android:textSize="17dp"
                                 android:textStyle="bold" />
 
@@ -110,7 +111,27 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Laboratory"
+                                    android:text="Cek Kolestrol"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text="L/"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="HDL-C"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -147,14 +168,16 @@
                                 android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                app:srcCompat="@drawable/edit" />
+                                app:srcCompat="@drawable/edit"
+                                android:layout_gravity="center_vertical"/>
 
                             <ImageView
                                 android:id="@+id/deleteLab1"
                                 android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                app:srcCompat="@drawable/delete" />
+                                app:srcCompat="@drawable/delete"
+                                android:layout_gravity="center_vertical" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -189,7 +212,7 @@
                                 android:id="@+id/namaLab2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Lab 2"
+                                android:text="Diabetes"
                                 android:textSize="17dp"
                                 android:textStyle="bold" />
 
@@ -210,7 +233,7 @@
                                     android:id="@+id/textView38"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Laboratory"
+                                    android:text="Cek Gula Darah"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -225,14 +248,14 @@
                                     android:layout_width="30dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginRight="5dp"
-                                    android:text=" "
+                                    android:text="L/"
                                     android:textSize="15dp" />
 
                                 <TextView
                                     android:id="@+id/textView40"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="..."
+                                    android:text="Cek Kolesterol"
                                     android:textSize="15dp" />
 
                             </LinearLayout>
@@ -249,14 +272,116 @@
                                 android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                app:srcCompat="@drawable/edit" />
+                                app:srcCompat="@drawable/edit"
+                                android:layout_gravity="center_vertical"/>
 
                             <ImageView
                                 android:id="@+id/deleteLab2"
                                 android:layout_width="25dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                app:srcCompat="@drawable/delete" />
+                                app:srcCompat="@drawable/delete"
+                                android:layout_gravity="center_vertical" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layerLab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="@drawable/radiuswhite"
+                    android:elevation="5dp"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/namaLab3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Jantung"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text="L/"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Cardiologi"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text="L/"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Kateterisasi"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/editLab3"
+                                android:layout_width="25dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/edit"
+                                android:layout_gravity="center_vertical" />
+
+                            <ImageView
+                                android:id="@+id/deleteLab3"
+                                android:layout_width="25dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/delete"
+                                android:layout_gravity="center_vertical" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -271,6 +396,7 @@
     </ScrollView>
 
     <LinearLayout
+        android:id="@+id/addTemplateLab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

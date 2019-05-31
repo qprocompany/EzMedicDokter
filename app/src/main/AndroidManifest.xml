@@ -9,51 +9,66 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".JadwalPraktik" />
+        <activity
+            android:name=".JadwalPraktik"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".AlergiProblem"
             android:label="Alergi Dan Problem"
-            android:parentActivityName=".PreviousEpisode" />
+            android:parentActivityName=".PreviousEpisode"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".MedicalPathway"
             android:label="Medical Pathway"
-            android:parentActivityName=".Profile" />
+            android:parentActivityName=".Profile"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".DetailPasien4"
             android:label="EMR"
-            android:parentActivityName=".DetailPasien3" />
+            android:parentActivityName=".DetailPasien3"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".DetailPasien3"
             android:label="EMR"
-            android:parentActivityName=".DetailPasien2" />
+            android:parentActivityName=".DetailPasien2"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".DetailPasien2"
             android:label="EMR"
-            android:parentActivityName=".DetailPasien" />
+            android:parentActivityName=".DetailPasien"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".DetailPreviousEpisode"
             android:label="Detail Riwayat Pasien"
-            android:parentActivityName=".PreviousEpisode" />
+            android:parentActivityName=".PreviousEpisode"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Settings"
             android:label="Pengaturan"
-            android:parentActivityName=".Profile" />
+            android:parentActivityName=".Profile"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopPoin"
-            android:theme="@style/AppTheme.CustomThemePoin" />
+            android:theme="@style/AppTheme.CustomThemePoin"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".DetailKedatanganPasien"
             android:label="Detail kedatangan pasien"
-            android:parentActivityName=".JadwalPraktik" />
+            android:parentActivityName=".JadwalPraktik"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".DetailPasienBatal"
             android:label="Pasien Batal"
-            android:parentActivityName=".JadwalPraktik" />
+            android:parentActivityName=".JadwalPraktik"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".DetailPasienHadir"
             android:label="Pasien Hadir"
-            android:parentActivityName=".JadwalPraktik" />
-        <activity android:name=".MainActivity">
+            android:parentActivityName=".JadwalPraktik"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -62,104 +77,135 @@
         </activity>
         <activity
             android:name=".Profile"
-            android:parentActivityName=".Profile" />
+            android:parentActivityName=".Profile"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".DetailPasien"
             android:label="EMR"
-            android:parentActivityName=".PreviousEpisode" />
+            android:parentActivityName=".PreviousEpisode"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".UpdateProfile"
             android:label="Update Profile"
-            android:parentActivityName=".Profile" />
+            android:parentActivityName=".Profile"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".TemplateResep"
             android:label="Template Resep"
-            android:parentActivityName=".Profile" />
+            android:parentActivityName=".Profile"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".TemplateLab"
             android:label="Template Lab"
-            android:parentActivityName=".Profile" />
+            android:parentActivityName=".Profile"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".OtherExam"
             android:label="Other Exam"
-            android:parentActivityName=".Profile" />
+            android:parentActivityName=".Profile"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PreviousEpisode"
             android:label="Riwayat Kunjungan"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".TemplateRadiologi"
             android:label="Template Radiologi"
-            android:parentActivityName=".Profile" />
+            android:parentActivityName=".Profile"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopRating"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopTable"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopEditRadio"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopTmpt"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopDelete"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopEditResep"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopEditOther"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopEditLab"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopConfirm"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopReschedule"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopProblem"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopAlergi"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopObat"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopLab"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopRadiologi"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopOtherExam"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopDiagnosa"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopProsedur"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopAnamesa"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopMedicalPathway"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PopEditMedicalPathway"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".HistoryPasienTudei"
-            android:label="Histori Pasien" />
+            android:label="Histori Pasien"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SKP"
-            android:label="SKP" />
+            android:label="SKP"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
