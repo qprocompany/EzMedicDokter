@@ -3,4 +3,19 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="@color/colorWhite">
 
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMBAH"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlueJeans"
+        android:textSize="17dp"
+        android:textColor="@color/colorWhite"/>
+
 </RelativeLayout>
