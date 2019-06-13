@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 
 public class DetailPasien4 extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
-    Button next;
+    Button next, tambah;
 
     ImageView popDiagnosa, popProsedur;
 
@@ -55,6 +55,15 @@ public class DetailPasien4 extends AppCompatActivity implements AdapterView.OnIt
                 R.array.refer, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerRefer.setAdapter(adapter);
+
+        tambah = (Button) findViewById(R.id.tambah);
+        tambah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DetailPasien4.this, PopTambahPertemuan.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
