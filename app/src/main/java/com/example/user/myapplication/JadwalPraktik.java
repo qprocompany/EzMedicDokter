@@ -22,7 +22,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
 
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
-    CalendarView calendarView;
+    CalendarView kalenderJadwal;
     LinearLayout jadwalPasien1, jadwalPasien2, jadwalPasien3, jadwalPasien4;
     LinearLayout garisH1, garisH2, garisH3, garisH4;
     TextView namaJadwal1, namaJadwal2,namaJadwal3, namaJadwal4;
@@ -48,6 +48,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
     LinearLayout layerKedatangan;
 
     Button buttonReschedule;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -161,13 +162,13 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
 
 
 
-        calendarView = (CalendarView) findViewById(R.id.calendarView);
-        calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+        kalenderJadwal = (CalendarView) findViewById(R.id.kalenderJadwal);
+        kalenderJadwal.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, final int i, int i1, int i2) {
                 String date = (i1 + 1) + "/" + i2 + "/" + i;
 
-                if(date.equals("5/29/2019")){
+                if(date.equals("6/12/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("22");
@@ -270,7 +271,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     buttonReschedule.setVisibility(View.INVISIBLE);
 
 
-                } else if (date.equals("5/30/2019")){
+                } else if (date.equals("6/13/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto4);
                     namaJadwal1.setText("Bagus");
                     umurJadwal1.setText("20");
@@ -347,7 +348,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     triboxLayout.setVisibility(View.VISIBLE);
                     buttonReschedule.setVisibility(View.INVISIBLE);
 
-                }else if(date.equals("5/31/2019")){
+                }else if(date.equals("6/15/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("20");
@@ -419,7 +420,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     triboxLayout.setVisibility(View.INVISIBLE);
                     buttonReschedule.setVisibility(View.VISIBLE);
 
-                }else if (date.equals("6/1/2019")){
+                }else if (date.equals("6/16/2019")){
                     fotoJadwal1.setImageResource(R.drawable.test);
                     namaJadwal1.setText("Nando");
                     umurJadwal1.setText("20");
@@ -491,7 +492,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     triboxLayout.setVisibility(View.INVISIBLE);
                     buttonReschedule.setVisibility(View.VISIBLE);
 
-                }else if (date.equals("6/2/2019")){
+                }else if (date.equals("6/17/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("20");
@@ -637,14 +638,11 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                 }
             }
         });
-
-
-
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.home_act_bar,menu);
+        getMenuInflater().inflate(R.menu.act_bar2,menu);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -658,8 +656,12 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
             case R.id.profileBtn:
                 startActivity(new Intent(this, Profile.class));
                 return true;
-        }
 
+            case R.id.kalenderBtn:
+                if (kalenderJadwal.getVisibility() == View.VISIBLE){
+                    kalenderJadwal.setVisibility(View.GONE);
+                }else {kalenderJadwal.setVisibility(View.VISIBLE);}
+        }
 
         return super.onOptionsItemSelected(item);
     }
