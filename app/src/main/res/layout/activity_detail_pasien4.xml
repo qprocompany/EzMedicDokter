@@ -297,11 +297,21 @@
                         android:id="@+id/tambah"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tambah Pertemuan"
-                        android:elevation="5dp"
-                        android:textSize="15dp"
                         android:background="@drawable/radiusbutton"
-                        android:textColor="@color/colorWhite"/>
+                        android:elevation="5dp"
+                        android:text="Tambah Pertemuan"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15dp" />
+
+                    <CalendarView
+                        android:id="@+id/calender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/radiuswhite"
+                        android:elevation="5dp"
+                        android:layout_margin="5dp"
+                        android:visibility="gone" />
+
                 </LinearLayout>
 
 

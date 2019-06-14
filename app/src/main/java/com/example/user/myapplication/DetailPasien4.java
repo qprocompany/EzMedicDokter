@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CalendarView;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
@@ -16,6 +17,8 @@ public class DetailPasien4 extends AppCompatActivity implements AdapterView.OnIt
     ImageView popDiagnosa, popProsedur;
 
     Spinner spinnerRefer;
+
+    CalendarView calender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,10 +63,14 @@ public class DetailPasien4 extends AppCompatActivity implements AdapterView.OnIt
         tambah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(DetailPasien4.this, PopTambahPertemuan.class);
-                startActivity(intent);
+              if (calender.getVisibility() == View.VISIBLE){
+                calender.setVisibility(View.GONE);
+                }else {calender.setVisibility(View.VISIBLE);}
             }
         });
+
+        calender = (CalendarView) findViewById(R.id.calender);
+
 
     }
 
