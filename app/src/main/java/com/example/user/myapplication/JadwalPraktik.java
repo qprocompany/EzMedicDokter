@@ -169,6 +169,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                 String date = (i1 + 1) + "/" + i2 + "/" + i;
 
                 if(date.equals("6/12/2019")){
+
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("22");

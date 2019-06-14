@@ -1,6 +1,7 @@
 package com.example.user.myapplication;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -70,6 +71,14 @@ public class DetailPasien4 extends AppCompatActivity implements AdapterView.OnIt
         });
 
         calender = (CalendarView) findViewById(R.id.calender);
+        calender.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+            @Override
+            public void onSelectedDayChange(@NonNull CalendarView calendarView, final int i, int i1, int i2) {
+                String date = (i1 + 1) + "/" + i2 + "/" + i;
+                tambah.setText(date);
+                calender.setVisibility(View.GONE);
+            }
+        });
 
 
     }
