@@ -12,6 +12,10 @@ import android.widget.CalendarView;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class DetailPasien4 extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
     Button next, tambah;
 
@@ -74,9 +78,15 @@ public class DetailPasien4 extends AppCompatActivity implements AdapterView.OnIt
         calender.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, final int i, int i1, int i2) {
-                String date = (i1 + 1) + "/" + i2 + "/" + i;
-                tambah.setText(date);
-                calender.setVisibility(View.GONE);
+                try {
+                    String date = (i1 + 1) + "/" + i2 + "/" + i;
+                    DateFormat inputFormat = new SimpleDateFormat("MM/dd/yyyy");
+                    DateFormat outputFormat = new SimpleDateFormat("dd MMM yyyy");
+                    Date inputDateStr = inputFormat.parse(date);
+                    String outputDateStr = outputFormat.format(inputDateStr);
+                    tambah.setText(outputDateStr);
+                    calender.setVisibility(View.GONE);
+                }catch (Exception e){}
             }
         });
 
