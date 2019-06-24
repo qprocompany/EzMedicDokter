@@ -36,7 +36,7 @@
                         android:id="@+id/textView6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="01 April 2019"
+                        android:text="01 Apr 2019"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 

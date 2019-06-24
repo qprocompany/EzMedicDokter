@@ -168,7 +168,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
             public void onSelectedDayChange(@NonNull CalendarView calendarView, final int i, int i1, int i2) {
                 String date = (i1 + 1) + "/" + i2 + "/" + i;
 
-                if(date.equals("6/12/2019")){
+                if(date.equals("6/22/2019")){
 
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
@@ -176,7 +176,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
                     visitTxt1.setText("Visit :");
-                    tglJadwal1.setText("23 Mei 2019 , 15:00");
+                    tglJadwal1.setText("22 Jun 2019 , 15:00");
                     diagnosaTxt1.setText("Diagnosa :");
                     isiDiagnosa1.setText("Sakit Kepala");
                     genderJadwal1.setImageResource(R.drawable.male);
@@ -194,7 +194,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal2.setText("081546464896");
                     thnJadwal2.setText("Thn");
                     visitTxt2.setText("Visit :");
-                    tglJadwal2.setText("23 Mei 2019 , 15:45");
+                    tglJadwal2.setText("22 Jun 2019 , 15:45");
                     diagnosaTxt2.setText("Diagnosa :");
                     isiDiagnosa2.setText("Sakit Kepala");
                     genderJadwal2.setImageResource(R.drawable.female);
@@ -211,7 +211,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal3.setText("081546464896");
                     thnJadwal3.setText("Thn");
                     visitTxt3.setText("Visit :");
-                    tglJadwal3.setText("23 Mei 2019 , 16:15");
+                    tglJadwal3.setText("22 Jun 2019 , 16:15");
                     diagnosaTxt3.setText("Diagnosa :");
                     isiDiagnosa3.setText("Sakit Kepala");
                     genderJadwal3.setImageResource(R.drawable.male);
@@ -228,7 +228,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal4.setText("081546464896");
                     thnJadwal4.setText("Thn");
                     visitTxt4.setText("Visit :");
-                    tglJadwal4.setText("23 Mei 2019 , 16:45");
+                    tglJadwal4.setText("22 Jun 2019 , 16:45");
                     diagnosaTxt4.setText("Diagnosa :");
                     isiDiagnosa4.setText("Sakit Kepala");
                     genderJadwal4.setImageResource(R.drawable.male);
@@ -272,14 +272,14 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     buttonReschedule.setVisibility(View.INVISIBLE);
 
 
-                } else if (date.equals("6/13/2019")){
+                } else if (date.equals("6/23/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto4);
                     namaJadwal1.setText("Bagus");
                     umurJadwal1.setText("20");
                     noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
                     visitTxt1.setText("Visit :");
-                    tglJadwal1.setText("26 Mei 2019 , 18:00");
+                    tglJadwal1.setText("23 Jun 2019 , 18:00");
                     diagnosaTxt1.setText("Diagnosa :");
                     isiDiagnosa1.setText("-");
                     genderJadwal1.setImageResource(R.drawable.male);
@@ -296,7 +296,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal2.setText("081785715886");
                     thnJadwal2.setText("Thn");
                     visitTxt2.setText("Visit :");
-                    tglJadwal2.setText("26 Mei 2019 , 18:30");
+                    tglJadwal2.setText("23 Jun 2019 , 18:30");
                     diagnosaTxt2.setText("Diagnosa :");
                     isiDiagnosa2.setText("-");
                     genderJadwal2.setImageResource(R.drawable.male);
@@ -313,7 +313,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal3.setText("081546464896");
                     thnJadwal3.setText("Thn");
                     visitTxt3.setText("Visit :");
-                    tglJadwal3.setText("26 Mei 2019 , 19:00");
+                    tglJadwal3.setText("23 Jun 2019 , 19:00");
                     diagnosaTxt3.setText("Diagnosa :");
                     isiDiagnosa3.setText("-");
                     genderJadwal3.setImageResource(R.drawable.male);
@@ -330,7 +330,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal4.setText("081546464896");
                     thnJadwal4.setText("Thn");
                     visitTxt4.setText("Visit :");
-                    tglJadwal4.setText("26 Mei 2019 , 19:30");
+                    tglJadwal4.setText("23 Jun 2019 , 19:30");
                     diagnosaTxt4.setText("Diagnosa :");
                     isiDiagnosa4.setText("-");
                     genderJadwal4.setImageResource(R.drawable.male);
@@ -349,14 +349,14 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     triboxLayout.setVisibility(View.VISIBLE);
                     buttonReschedule.setVisibility(View.INVISIBLE);
 
-                }else if(date.equals("6/15/2019")){
+                }else if(date.equals("6/25/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("20");
                     noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
                     visitTxt1.setText("Visit :");
-                    tglJadwal1.setText("27 Mei 2019 , 15:45");
+                    tglJadwal1.setText("25 Jun 2019 , 15:45");
                     diagnosaTxt1.setText("Diagnosa :");
                     isiDiagnosa1.setText("-");
                     genderJadwal1.setImageResource(R.drawable.male);
@@ -373,7 +373,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal2.setText("081546464896");
                     thnJadwal2.setText("Thn");
                     visitTxt2.setText("Visit :");
-                    tglJadwal2.setText("27 Mei 2019 , 16:45");
+                    tglJadwal2.setText("25 Jun 2019 , 16:45");
                     diagnosaTxt2.setText("Diagnosa :");
                     isiDiagnosa2.setText("-");
                     genderJadwal2.setImageResource(R.drawable.female);
@@ -390,7 +390,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal3.setText("081546464896");
                     thnJadwal3.setText("Thn");
                     visitTxt3.setText("Visit :");
-                    tglJadwal3.setText("27 Mei 2019 , 17:00");
+                    tglJadwal3.setText("25 Jun 2019 , 17:00");
                     diagnosaTxt3.setText("Diagnosa :");
                     isiDiagnosa3.setText("-");
                     genderJadwal3.setImageResource(R.drawable.male);
@@ -407,7 +407,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal4.setText("081546464896");
                     thnJadwal4.setText("Thn");
                     visitTxt4.setText("Visit :");
-                    tglJadwal4.setText("27 Mei 2019 , 17:45");
+                    tglJadwal4.setText("25 Jun 2019 , 17:45");
                     diagnosaTxt4.setText("Diagnosa :");
                     isiDiagnosa4.setText("-");
                     genderJadwal4.setImageResource(R.drawable.male);
@@ -421,14 +421,14 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     triboxLayout.setVisibility(View.INVISIBLE);
                     buttonReschedule.setVisibility(View.VISIBLE);
 
-                }else if (date.equals("6/16/2019")){
+                }else if (date.equals("6/26/2019")){
                     fotoJadwal1.setImageResource(R.drawable.test);
                     namaJadwal1.setText("Nando");
                     umurJadwal1.setText("20");
                     noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
                     visitTxt1.setText("Visit :");
-                    tglJadwal1.setText("28 Mei 2019 , 17:00");
+                    tglJadwal1.setText("26 Jun 2019 , 17:00");
                     diagnosaTxt1.setText("Diagnosa :");
                     isiDiagnosa1.setText("-");
                     genderJadwal1.setImageResource(R.drawable.male);
@@ -445,7 +445,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal2.setText("081785715886");
                     thnJadwal2.setText("Thn");
                     visitTxt2.setText("Visit :");
-                    tglJadwal2.setText("28 Mei 2019 , 17:15");
+                    tglJadwal2.setText("26 Jun 2019 , 17:15");
                     diagnosaTxt2.setText("Diagnosa :");
                     isiDiagnosa2.setText("-");
                     genderJadwal2.setImageResource(R.drawable.male);
@@ -462,7 +462,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal3.setText("081546464896");
                     thnJadwal3.setText("Thn");
                     visitTxt3.setText("Visit :");
-                    tglJadwal3.setText("28 Mei 2019 , 17:30");
+                    tglJadwal3.setText("26 Jun 2019 , 17:30");
                     diagnosaTxt3.setText("Diagnosa :");
                     isiDiagnosa3.setText("-");
                     genderJadwal3.setImageResource(R.drawable.male);
@@ -479,7 +479,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal4.setText("081546464896");
                     thnJadwal4.setText("Thn");
                     visitTxt4.setText("Visit :");
-                    tglJadwal4.setText("28 Mei 2019 , 17:45");
+                    tglJadwal4.setText("26 Jun 2019 , 17:45");
                     diagnosaTxt4.setText("Diagnosa :");
                     isiDiagnosa4.setText("-");
                     genderJadwal4.setImageResource(R.drawable.male);
@@ -493,14 +493,14 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     triboxLayout.setVisibility(View.INVISIBLE);
                     buttonReschedule.setVisibility(View.VISIBLE);
 
-                }else if (date.equals("6/17/2019")){
+                }else if (date.equals("6/27/2019")){
                     fotoJadwal1.setImageResource(R.drawable.foto7);
                     namaJadwal1.setText("Andi");
                     umurJadwal1.setText("20");
                     noJadwal1.setText("081212121212");
                     thnJadwal1.setText("Thn");
                     visitTxt1.setText("Visit :");
-                    tglJadwal1.setText("29 Mei 2019 , 17:15");
+                    tglJadwal1.setText("27 Jun 2019 , 17:15");
                     diagnosaTxt1.setText("Diagnosa :");
                     isiDiagnosa1.setText("-");
                     genderJadwal1.setImageResource(R.drawable.male);
@@ -517,7 +517,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal2.setText("081785715886");
                     thnJadwal2.setText("Thn");
                     visitTxt2.setText("Visit :");
-                    tglJadwal2.setText("29 Mei 2019 , 17:30");
+                    tglJadwal2.setText("27 Jun 2019 , 17:30");
                     diagnosaTxt2.setText("Diagnosa :");
                     isiDiagnosa2.setText("-");
                     genderJadwal2.setImageResource(R.drawable.female);
@@ -534,7 +534,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal3.setText("081546464896");
                     thnJadwal3.setText("Thn");
                     visitTxt3.setText("Visit :");
-                    tglJadwal3.setText("29 Mei 2019 , 17:45");
+                    tglJadwal3.setText("27 Jun 2019 , 17:45");
                     diagnosaTxt3.setText("Diagnosa :");
                     isiDiagnosa3.setText("-");
                     genderJadwal3.setImageResource(R.drawable.female);
@@ -551,7 +551,7 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
                     noJadwal4.setText("081546464896");
                     thnJadwal4.setText("Thn");
                     visitTxt4.setText("Visit :");
-                    tglJadwal4.setText("29 Mei 2019 , 18:00");
+                    tglJadwal4.setText("27 Jun 2019 , 18:00");
                     diagnosaTxt4.setText("Diagnosa :");
                     isiDiagnosa4.setText("-");
                     genderJadwal4.setImageResource(R.drawable.male);
@@ -661,7 +661,8 @@ public class JadwalPraktik extends AppCompatActivity implements NavigationView.O
             case R.id.kalenderBtn:
                 if (kalenderJadwal.getVisibility() == View.VISIBLE){
                     kalenderJadwal.setVisibility(View.GONE);
-                }else {kalenderJadwal.setVisibility(View.VISIBLE);}
+                }else {kalenderJadwal.setVisibility(View.VISIBLE);
+                }
         }
 
         return super.onOptionsItemSelected(item);

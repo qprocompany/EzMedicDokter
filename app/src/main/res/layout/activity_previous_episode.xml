@@ -156,7 +156,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="30 April 2019 , 15:45"
+                                android:text="30 Apr 2019 , 15:45"
                                 android:textColor="@color/colorWhite"
                                 android:textSize="15dp" />
 
@@ -208,19 +208,21 @@
                     android:layout_weight="0.2"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView29"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:text="1 April 2019"
-                        android:textSize="15dp" />
-
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/colorBlack"
-                        android:orientation="vertical"></LinearLayout>
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorBlueJeans">
+
+                        <TextView
+                            android:id="@+id/textView29"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="1 Apr 2019"
+                            android:textSize="15dp"
+                            android:textColor="@color/colorWhite"/>
+
+                    </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -242,7 +244,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="TB :"
+                                    android:text="TB "
                                     android:textSize="15dp" />
 
                                 <TextView
@@ -250,7 +252,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
                                     android:text="175"
-                                    android:textSize="15dp" />
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"/>
 
 
                             </LinearLayout>
@@ -265,7 +268,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="BB :"
+                                    android:text="BB "
                                     android:textSize="15dp" />
 
                                 <TextView
@@ -273,7 +276,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
                                     android:text="115"
-                                    android:textSize="15dp" />
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
 
 
                             </LinearLayout>
@@ -295,7 +299,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="TD :"
+                                    android:text="TD "
                                     android:textSize="15dp" />
 
                                 <TextView
@@ -303,7 +307,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
                                     android:text="130 / 80"
-                                    android:textSize="15dp" />
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
 
 
                             </LinearLayout>
@@ -318,7 +323,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="DN :"
+                                    android:text="DN "
                                     android:textSize="15dp" />
 
                                 <TextView
@@ -326,7 +331,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
                                     android:text="70"
-                                    android:textSize="15dp" />
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
 
 
                             </LinearLayout>
@@ -350,7 +356,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="5dp"
                                 android:text="Demam Tinggi"
-                                android:textSize="17dp" />
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -374,18 +381,20 @@
                     android:layout_weight="0.2"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:text="9 Juli 2018"
-                        android:textSize="15dp" />
-
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/colorBlack"
-                        android:orientation="vertical"></LinearLayout>
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorBlueJeans">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="9 Jul 2018"
+                            android:textSize="15dp"
+                            android:textColor="@color/colorWhite"/>
+
+                    </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -407,7 +416,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="TB :"
+                                    android:text="TB "
                                     android:textSize="15dp" />
 
                                 <TextView
@@ -415,7 +424,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
                                     android:text="170"
-                                    android:textSize="15dp" />
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
 
 
                             </LinearLayout>
@@ -430,7 +440,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="BB :"
+                                    android:text="BB "
                                     android:textSize="15dp" />
 
                                 <TextView
@@ -438,7 +448,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
                                     android:text="80"
-                                    android:textSize="15dp" />
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
 
 
                             </LinearLayout>
@@ -460,7 +471,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="TD :"
+                                    android:text="TD "
                                     android:textSize="15dp" />
 
                                 <TextView
@@ -468,7 +479,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
                                     android:text="120 / 70"
-                                    android:textSize="15dp" />
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"/>
 
 
                             </LinearLayout>
@@ -483,7 +495,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="DN :"
+                                    android:text="DN "
                                     android:textSize="15dp" />
 
                                 <TextView
@@ -491,7 +503,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
                                     android:text="80"
-                                    android:textSize="15dp" />
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"/>
 
 
                             </LinearLayout>
@@ -515,7 +528,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="5dp"
                                 android:text="Panas Tinggi "
-                                android:textSize="17dp" />
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
                         </LinearLayout>
 
                     </LinearLayout>
